@@ -1,0 +1,15 @@
+obj/project.assets.json
+bin/Debug/netcoreapp2.0/dotnetcoreproject.deps.json
+bin/Debug/netcoreapp2.0/dotnetcoreproject.dll
+bin/Debug/netcoreapp2.0/dotnetcoreproject.pdb
+bin/Debug/netcoreapp2.0/dotnetcoreproject.runtimeconfig.dev.json
+bin/Debug/netcoreapp2.0/dotnetcoreproject.runtimeconfig.json
+obj/dotnetcoreproject.csproj.nuget.cache
+obj/dotnetcoreproject.csproj.nuget.g.props
+obj/dotnetcoreproject.csproj.nuget.g.targets
+obj/Debug/netcoreapp2.0/dotnetcoreproject.AssemblyInfo.cs
+obj/Debug/netcoreapp2.0/dotnetcoreproject.AssemblyInfoInputs.cache
+obj/Debug/netcoreapp2.0/dotnetcoreproject.csproj.CoreCompileInputs.cache
+obj/Debug/netcoreapp2.0/dotnetcoreproject.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp2.0/dotnetcoreproject.dll
+obj/Debug/netcoreapp2.0/dotnetcoreproject.pdb
