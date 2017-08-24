@@ -19,6 +19,12 @@ namespace dotnetcoreproject
 
             NextGreaterElementDemo test4 = new NextGreaterElementDemo();
             int[] nResult = test4.NextGreaterElement(new int[]{4,1,2}, new int[]{1,3,4,2});
+
+            TreeNode root = new TreeNode(2147483647);
+            root.left = new TreeNode(2147483647);
+            root.right = new TreeNode(2147483647);
+            AverageofLevelsinBinaryTreeDemo test5 = new AverageofLevelsinBinaryTreeDemo();
+            IList<double> dResult = test5.AverageOfLevels(root);
         }
     }
 }
