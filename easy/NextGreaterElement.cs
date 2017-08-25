@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/next-greater-element-i/description/
+
 using System.Collections.Generic;
 
 public class NextGreaterElementDemo {

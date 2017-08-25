@@ -25,6 +25,9 @@ namespace dotnetcoreproject
             root.right = new TreeNode(2147483647);
             AverageofLevelsinBinaryTreeDemo test5 = new AverageofLevelsinBinaryTreeDemo();
             IList<double> dResult = test5.AverageOfLevels(root);
+
+            SingleNumberDemo test6 = new SingleNumberDemo();
+            Console.WriteLine(test6.SingleNumber(new int[]{17,12,5,-6,12,4,17,-5,2,-3,2,4,5,16,-3,-4,15,15,-4,-5,-6}));
         }
     }
 }

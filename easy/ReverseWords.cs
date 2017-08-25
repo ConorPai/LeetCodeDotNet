@@ -1,3 +1,6 @@
+//https://leetcode.com/problems/reverse-words-in-a-string-iii/description/
+//https://leetcode.com/problems/reverse-string/description/
+
 using System.Text;
 
 public class ReverseWordsDemo {
