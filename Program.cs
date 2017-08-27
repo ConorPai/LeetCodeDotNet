@@ -31,6 +31,10 @@ namespace dotnetcoreproject
 
             HammingDistanceDemo test7 = new HammingDistanceDemo();
             Console.WriteLine(test7.HammingDistance(1, 16));
+
+            MaxConsecutiveOnesDemo test8 = new MaxConsecutiveOnesDemo();
+            Console.WriteLine(test8.FindMaxConsecutiveOnes(new int[]{1,1,0,1,1,1}));
+            
         }
     }
 }
