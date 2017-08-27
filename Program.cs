@@ -35,6 +35,8 @@ namespace dotnetcoreproject
             MaxConsecutiveOnesDemo test8 = new MaxConsecutiveOnesDemo();
             Console.WriteLine(test8.FindMaxConsecutiveOnes(new int[]{1,1,0,1,1,1}));
             
+            MaximumDepthofBinaryTreeDemo test9 = new MaximumDepthofBinaryTreeDemo();
+            Console.WriteLine(test9.MaxDepth(root));
         }
     }
 }
