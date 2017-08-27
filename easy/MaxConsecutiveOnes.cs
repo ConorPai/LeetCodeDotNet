@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/max-consecutive-ones/description/
+
 public class MaxConsecutiveOnesDemo {
     public int FindMaxConsecutiveOnes(int[] nums) {
         
@@ -20,7 +22,7 @@ public class MaxConsecutiveOnesDemo {
 
         if (nCurResult > nMaxResult)
             nMaxResult = nCurResult;
-            
+
         return nMaxResult;
     }
 }
