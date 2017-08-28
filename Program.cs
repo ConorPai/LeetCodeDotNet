@@ -37,6 +37,18 @@ namespace dotnetcoreproject
             
             MaximumDepthofBinaryTreeDemo test9 = new MaximumDepthofBinaryTreeDemo();
             Console.WriteLine(test9.MaxDepth(root));
+
+            TreeNode root10 = new TreeNode(4);
+            TreeNode left10 = new TreeNode(2);
+            left10.left = new TreeNode(1);
+            left10.right = new TreeNode(3);
+            TreeNode right10 = new TreeNode(7);
+            right10.left = new TreeNode(6);
+            right10.right = new TreeNode(9);
+            root10.left = left10;
+            root10.right = right10;
+            InvertBinaryTreeDemo test10 = new InvertBinaryTreeDemo();
+            TreeNode nodeResult10 = test10.InvertTree(root10);
         }
     }
 }
