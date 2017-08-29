@@ -49,6 +49,9 @@ namespace dotnetcoreproject
             root10.right = right10;
             InvertBinaryTreeDemo test10 = new InvertBinaryTreeDemo();
             TreeNode nodeResult10 = test10.InvertTree(root10);
+
+            FindAllNumbersDisappearedinanArrayDemo test11 = new FindAllNumbersDisappearedinanArrayDemo();
+            IList<int> pResult11 = test11.FindDisappearedNumbers(new int[] {4,3,2,7,8,2,3,1});
         }
     }
 }
