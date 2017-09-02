@@ -52,6 +52,19 @@ namespace dotnetcoreproject
 
             FindAllNumbersDisappearedinanArrayDemo test11 = new FindAllNumbersDisappearedinanArrayDemo();
             IList<int> pResult11 = test11.FindDisappearedNumbers(new int[] {4,3,2,7,8,2,3,1});
+
+
+            TreeNode root12 = new TreeNode(5);
+            TreeNode left12 = new TreeNode(3);
+            left12.left = new TreeNode(2);
+            left12.right = new TreeNode(4);
+            TreeNode right12 = new TreeNode(6);
+            right12.right = new TreeNode(7);
+            root12.left = left12;
+            root12.right = right12;
+
+            TwoSumIVDemo test12 = new TwoSumIVDemo();
+            Console.WriteLine(test12.FindTarget(root12, 9) ? "true" : "false");
         }
     }
 }
