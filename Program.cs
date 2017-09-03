@@ -65,6 +65,9 @@ namespace dotnetcoreproject
 
             TwoSumIVDemo test12 = new TwoSumIVDemo();
             Console.WriteLine(test12.FindTarget(root12, 9) ? "true" : "false");
+
+            ConstructStringfromBinaryTreeDemo test13 = new ConstructStringfromBinaryTreeDemo();
+            Console.WriteLine(test13.Tree2str(root12));
         }
     }
 }
