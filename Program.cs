@@ -75,7 +75,7 @@ namespace dotnetcoreproject
 
             ListNode curL2 = new ListNode(5);
             curL2.next = new ListNode(6);
-            curL2.next.next = new ListNode(7);
+            curL2.next.next = new ListNode(4);
             AddTwoNumbersDemo test14 = new AddTwoNumbersDemo();
             ListNode rNode14 = test14.AddTwoNumbers(curL1, curL2);
         }

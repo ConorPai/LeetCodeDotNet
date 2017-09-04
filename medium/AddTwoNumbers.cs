@@ -1,5 +1,11 @@
 //https://leetcode.com/problems/add-two-numbers/description/
 
+ public class ListNode {
+    public int val;
+    public ListNode next;
+    public ListNode(int x) { val = x; }
+ }
+
 public class AddTwoNumbersDemo {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2) {
             
