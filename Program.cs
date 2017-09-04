@@ -68,6 +68,16 @@ namespace dotnetcoreproject
 
             ConstructStringfromBinaryTreeDemo test13 = new ConstructStringfromBinaryTreeDemo();
             Console.WriteLine(test13.Tree2str(root12));
+
+            ListNode curL1 = new ListNode(2);
+            curL1.next = new ListNode(4);
+            curL1.next.next = new ListNode(3);
+
+            ListNode curL2 = new ListNode(5);
+            curL2.next = new ListNode(6);
+            curL2.next.next = new ListNode(7);
+            AddTwoNumbersDemo test14 = new AddTwoNumbersDemo();
+            ListNode rNode14 = test14.AddTwoNumbers(curL1, curL2);
         }
     }
 }
