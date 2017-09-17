@@ -78,6 +78,13 @@ namespace dotnetcoreproject
             curL2.next.next = new ListNode(4);
             AddTwoNumbersDemo test14 = new AddTwoNumbersDemo();
             ListNode rNode14 = test14.AddTwoNumbers(curL1, curL2);
+
+            TreeNode root15 = new TreeNode(5);
+            root15.left = new TreeNode(2);
+            root15.right = new TreeNode(13);
+
+            ConvertBSTtoGreaterTreeDemo test15 = new ConvertBSTtoGreaterTreeDemo();
+            TreeNode ret15 = test15.convertBST(root15);
         }
     }
 }
