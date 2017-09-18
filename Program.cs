@@ -85,6 +85,10 @@ namespace dotnetcoreproject
 
             ConvertBSTtoGreaterTreeDemo test15 = new ConvertBSTtoGreaterTreeDemo();
             TreeNode ret15 = test15.convertBST(root15);
+
+            ConstructtheRectangleDemo test16 = new ConstructtheRectangleDemo();
+            int[] nRet16 = test16.ConstructRectangle(5);
+            Console.WriteLine(nRet16[0].ToString() + "," + nRet16[1].ToString());
         }
     }
 }
