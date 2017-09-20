@@ -89,6 +89,11 @@ namespace dotnetcoreproject
             ConstructtheRectangleDemo test16 = new ConstructtheRectangleDemo();
             int[] nRet16 = test16.ConstructRectangle(5);
             Console.WriteLine(nRet16[0].ToString() + "," + nRet16[1].ToString());
+
+            int[] nNums171 = new int[]{1, 2, 2, 1};
+            int[] nNums172 = new int[]{2, 2};
+            IntersectionofTwoArraysDemo test17 = new IntersectionofTwoArraysDemo();
+            int[] nRet17 = test17.Intersection(nNums171, nNums172);
         }
     }
 }
