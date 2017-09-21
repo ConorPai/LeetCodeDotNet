@@ -94,6 +94,9 @@ namespace dotnetcoreproject
             int[] nNums172 = new int[]{2, 2};
             IntersectionofTwoArraysDemo test17 = new IntersectionofTwoArraysDemo();
             int[] nRet17 = test17.Intersection(nNums171, nNums172);
+
+            ExcelSheetColumnTitleDemo test18 = new ExcelSheetColumnTitleDemo();
+            Console.WriteLine(test18.ConvertToTitle(27));
         }
     }
 }
