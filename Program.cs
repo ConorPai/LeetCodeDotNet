@@ -97,6 +97,9 @@ namespace dotnetcoreproject
 
             ExcelSheetColumnTitleDemo test18 = new ExcelSheetColumnTitleDemo();
             Console.WriteLine(test18.ConvertToTitle(27));
+
+            ExcelSheetColumnNumberDemo test19 = new ExcelSheetColumnNumberDemo();
+            Console.WriteLine(test19.TitleToNumber("AA").ToString());
         }
     }
 }
