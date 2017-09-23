@@ -100,6 +100,25 @@ namespace dotnetcoreproject
 
             ExcelSheetColumnNumberDemo test19 = new ExcelSheetColumnNumberDemo();
             Console.WriteLine(test19.TitleToNumber("AA").ToString());
+
+            TreeNode root201 = new TreeNode(5);
+            TreeNode left201 = new TreeNode(3);
+            left201.left = new TreeNode(2);
+            left201.right = new TreeNode(4);
+            TreeNode right201 = new TreeNode(6);
+            right201.right = new TreeNode(7);
+            root201.left = left201;
+            root201.right = right201;
+            TreeNode root202 = new TreeNode(5);
+            TreeNode left202 = new TreeNode(3);
+            left202.left = new TreeNode(2);
+            left202.right = new TreeNode(4);
+            TreeNode right202 = new TreeNode(6);
+            right202.right = new TreeNode(7);
+            root202.left = left202;
+            root202.right = right202;
+            SameTreeDemo test20 = new SameTreeDemo();
+            Console.WriteLine(test20.IsSameTree(root201, root202) ? "same tree" : "not same tree");
         }
     }
 }
