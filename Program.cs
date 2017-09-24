@@ -119,6 +119,15 @@ namespace dotnetcoreproject
             root202.right = right202;
             SameTreeDemo test20 = new SameTreeDemo();
             Console.WriteLine(test20.IsSameTree(root201, root202) ? "same tree" : "not same tree");
+
+            TreeNode root21 = new TreeNode(3);
+            TreeNode right21 = new TreeNode(20);
+            right21.left = new TreeNode(15);
+            right21.right = new TreeNode(7);
+            root21.left = new TreeNode(9);
+            root21.right = right21;
+            SumofLeftLeavesDemo test21 = new SumofLeftLeavesDemo();
+            Console.WriteLine(test21.SumOfLeftLeaves(root21).ToString());
         }
     }
 }
