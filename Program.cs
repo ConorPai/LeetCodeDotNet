@@ -13,12 +13,12 @@ namespace dotnetcoreproject
             FizzBuzzDemo test2 = new FizzBuzzDemo();
             IList<string> sResult = test2.FizzBuzz(15);
 
-            int[,] island = new int[,]{{0,1,0,0},{1,1,1,0},{0,1,0,0},{1,1,0,0}};
+            int[,] island = new int[,] { { 0, 1, 0, 0 }, { 1, 1, 1, 0 }, { 0, 1, 0, 0 }, { 1, 1, 0, 0 } };
             IslandPerimeterDemo test3 = new IslandPerimeterDemo();
             Console.WriteLine(test3.IslandPerimeter(island).ToString());
 
             NextGreaterElementDemo test4 = new NextGreaterElementDemo();
-            int[] nResult = test4.NextGreaterElement(new int[]{4,1,2}, new int[]{1,3,4,2});
+            int[] nResult = test4.NextGreaterElement(new int[] { 4, 1, 2 }, new int[] { 1, 3, 4, 2 });
 
             TreeNode root = new TreeNode(2147483647);
             root.left = new TreeNode(2147483647);
@@ -27,14 +27,14 @@ namespace dotnetcoreproject
             IList<double> dResult = test5.AverageOfLevels(root);
 
             SingleNumberDemo test6 = new SingleNumberDemo();
-            Console.WriteLine(test6.SingleNumber(new int[]{17,12,5,-6,12,4,17,-5,2,-3,2,4,5,16,-3,-4,15,15,-4,-5,-6}));
+            Console.WriteLine(test6.SingleNumber(new int[] { 17, 12, 5, -6, 12, 4, 17, -5, 2, -3, 2, 4, 5, 16, -3, -4, 15, 15, -4, -5, -6 }));
 
             HammingDistanceDemo test7 = new HammingDistanceDemo();
             Console.WriteLine(test7.HammingDistance(1, 16));
 
             MaxConsecutiveOnesDemo test8 = new MaxConsecutiveOnesDemo();
-            Console.WriteLine(test8.FindMaxConsecutiveOnes(new int[]{1,1,0,1,1,1}));
-            
+            Console.WriteLine(test8.FindMaxConsecutiveOnes(new int[] { 1, 1, 0, 1, 1, 1 }));
+
             MaximumDepthofBinaryTreeDemo test9 = new MaximumDepthofBinaryTreeDemo();
             Console.WriteLine(test9.MaxDepth(root));
 
@@ -51,7 +51,7 @@ namespace dotnetcoreproject
             TreeNode nodeResult10 = test10.InvertTree(root10);
 
             FindAllNumbersDisappearedinanArrayDemo test11 = new FindAllNumbersDisappearedinanArrayDemo();
-            IList<int> pResult11 = test11.FindDisappearedNumbers(new int[] {4,3,2,7,8,2,3,1});
+            IList<int> pResult11 = test11.FindDisappearedNumbers(new int[] { 4, 3, 2, 7, 8, 2, 3, 1 });
 
 
             TreeNode root12 = new TreeNode(5);
@@ -90,8 +90,8 @@ namespace dotnetcoreproject
             int[] nRet16 = test16.ConstructRectangle(5);
             Console.WriteLine(nRet16[0].ToString() + "," + nRet16[1].ToString());
 
-            int[] nNums171 = new int[]{1, 2, 2, 1};
-            int[] nNums172 = new int[]{2, 2};
+            int[] nNums171 = new int[] { 1, 2, 2, 1 };
+            int[] nNums172 = new int[] { 2, 2 };
             IntersectionofTwoArraysDemo test17 = new IntersectionofTwoArraysDemo();
             int[] nRet17 = test17.Intersection(nNums171, nNums172);
 
@@ -128,6 +128,17 @@ namespace dotnetcoreproject
             root21.right = right21;
             SumofLeftLeavesDemo test21 = new SumofLeftLeavesDemo();
             Console.WriteLine(test21.SumOfLeftLeaves(root21).ToString());
+
+
+            TreeNode root22 = new TreeNode(1);
+            TreeNode left22 = new TreeNode(2);
+            TreeNode right22 = new TreeNode(3);
+            left22.left = new TreeNode(4);
+            right22.left = new TreeNode(5);
+            root22.left = left22;
+            root22.right = right22;
+            BinaryTreeTiltDemo test22 = new BinaryTreeTiltDemo();
+            Console.WriteLine(test22.FindTilt(root22).ToString());
         }
     }
 }
