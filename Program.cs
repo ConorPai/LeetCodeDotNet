@@ -139,6 +139,13 @@ namespace dotnetcoreproject
             root22.right = right22;
             BinaryTreeTiltDemo test22 = new BinaryTreeTiltDemo();
             Console.WriteLine(test22.FindTilt(root22).ToString());
+
+            TreeNode root23= new TreeNode(1);
+            TreeNode right23 = new TreeNode(3);
+            right23.left = new TreeNode(2);
+            root23.right = right23;
+            MinimumAbsoluteDifferenceinBSTDemo test23 = new MinimumAbsoluteDifferenceinBSTDemo();
+            Console.WriteLine(test23.GetMinimumDifference(root23));
         }
     }
 }
