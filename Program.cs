@@ -146,6 +146,9 @@ namespace dotnetcoreproject
             root23.right = right23;
             MinimumAbsoluteDifferenceinBSTDemo test23 = new MinimumAbsoluteDifferenceinBSTDemo();
             Console.WriteLine(test23.GetMinimumDifference(root23));
+
+            ValidAnagramDemo test24 = new ValidAnagramDemo();
+            Console.WriteLine(test24.IsAnagram("anagram", "nagaram") ? "true" : "false");
         }
     }
 }
