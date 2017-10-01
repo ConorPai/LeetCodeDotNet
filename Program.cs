@@ -149,6 +149,9 @@ namespace dotnetcoreproject
 
             ValidAnagramDemo test24 = new ValidAnagramDemo();
             Console.WriteLine(test24.IsAnagram("anagram", "nagaram") ? "true" : "false");
+
+            ContainsDuplicateDemo test25 = new ContainsDuplicateDemo();
+            Console.WriteLine(test25.ContainsDuplicate(new int[] {3, 2, 5, 4, 3, 1, 6}) ? "true" : "false");
         }
     }
 }
