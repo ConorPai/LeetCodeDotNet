@@ -152,6 +152,9 @@ namespace dotnetcoreproject
 
             ContainsDuplicateDemo test25 = new ContainsDuplicateDemo();
             Console.WriteLine(test25.ContainsDuplicate(new int[] {3, 2, 5, 4, 3, 1, 6}) ? "true" : "false");
+
+            IntersectionofTwoArraysIIDemo test26 = new IntersectionofTwoArraysIIDemo();
+            test26.Intersect(nNums171, nNums172);
         }
     }
 }
