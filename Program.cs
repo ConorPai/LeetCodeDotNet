@@ -140,7 +140,7 @@ namespace dotnetcoreproject
             BinaryTreeTiltDemo test22 = new BinaryTreeTiltDemo();
             Console.WriteLine(test22.FindTilt(root22).ToString());
 
-            TreeNode root23= new TreeNode(1);
+            TreeNode root23 = new TreeNode(1);
             TreeNode right23 = new TreeNode(3);
             right23.left = new TreeNode(2);
             root23.right = right23;
@@ -158,6 +158,16 @@ namespace dotnetcoreproject
 
             DiameterofBinaryTreeDemo test27 = new DiameterofBinaryTreeDemo();
             Console.WriteLine(test27.DiameterOfBinaryTree(root23).ToString());
+
+            TreeNode root28 = new TreeNode(3);
+            TreeNode left28 = new TreeNode(4);
+            TreeNode right28 = new TreeNode(5);
+            left28.left = new TreeNode(1);
+            left28.right = new TreeNode(1);
+            root28.left = left28;
+            root28.right = right28;
+            SubtreeofAnotherTreeDemo test28 = new SubtreeofAnotherTreeDemo();
+            Console.WriteLine(test28.IsSubtree(root28, left28) ? "true" : "false");
         }
     }
 }
