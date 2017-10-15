@@ -171,6 +171,9 @@ namespace dotnetcoreproject
 
             BinaryTreeLevelOrderTraversalIIDemo test29 = new BinaryTreeLevelOrderTraversalIIDemo();
             IList<IList<int>> ret29 = test29.LevelOrderBottom(root28);
+
+            PowerofTwoDemo test30 = new PowerofTwoDemo();
+            Console.WriteLine(test30.IsPowerOfTwo(9) ? "true" : "false");
         }
     }
 }
