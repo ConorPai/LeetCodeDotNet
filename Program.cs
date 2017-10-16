@@ -174,6 +174,9 @@ namespace dotnetcoreproject
 
             PowerofTwoDemo test30 = new PowerofTwoDemo();
             Console.WriteLine(test30.IsPowerOfTwo(9) ? "true" : "false");
+
+            PowerofThreeDemo test31 = new PowerofThreeDemo();
+            Console.WriteLine(test31.IsPowerOfThree(9) ? "true" : "false");
         }
     }
 }
