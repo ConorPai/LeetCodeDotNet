@@ -180,6 +180,9 @@ namespace dotnetcoreproject
 
             PowerofFourDemo test32 = new PowerofFourDemo();
             Console.WriteLine(test32.IsPowerOfFour(16) ? "true" : "false");
+
+            SearchInsertPositionDemo test33 = new SearchInsertPositionDemo();
+            Console.WriteLine(test33.SearchInsert(new int[]{1, 3, 6, 9}, 7).ToString());
         }
     }
 }
