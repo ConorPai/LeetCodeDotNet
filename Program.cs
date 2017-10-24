@@ -183,6 +183,9 @@ namespace dotnetcoreproject
 
             SearchInsertPositionDemo test33 = new SearchInsertPositionDemo();
             Console.WriteLine(test33.SearchInsert(new int[]{1, 3, 6, 9}, 7).ToString());
+
+            EncodeandDecodeTinyURLDemo test34 = new EncodeandDecodeTinyURLDemo();
+            Console.WriteLine(test34.decode(test34.encode("http://leetcode.com")));
         }
     }
 }
