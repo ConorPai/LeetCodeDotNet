@@ -186,6 +186,9 @@ namespace dotnetcoreproject
 
             EncodeandDecodeTinyURLDemo test34 = new EncodeandDecodeTinyURLDemo();
             Console.WriteLine(test34.decode(test34.encode("http://leetcode.com")));
+
+            FindPivotIndexDemo test35 = new FindPivotIndexDemo();
+            Console.WriteLine(test35.PivotIndex(new int[]{-1,-1,-1,0,1,-1}).ToString());
         }
     }
 }
