@@ -189,6 +189,9 @@ namespace dotnetcoreproject
 
             FindPivotIndexDemo test35 = new FindPivotIndexDemo();
             Console.WriteLine(test35.PivotIndex(new int[]{-1,-1,-1,0,1,-1}).ToString());
+
+            SelfDividingNumbersDemo test36 = new SelfDividingNumbersDemo();
+            IList<int> ret36 = test36.SelfDividingNumbers(1, 22);
         }
     }
 }
