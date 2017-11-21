@@ -192,6 +192,12 @@ namespace dotnetcoreproject
 
             SelfDividingNumbersDemo test36 = new SelfDividingNumbersDemo();
             IList<int> ret36 = test36.SelfDividingNumbers(1, 22);
+
+            TreeNode root37 = new TreeNode(1);
+            root37.left = new TreeNode(2);
+            root37.right = null;
+            MinimumDepthofBinaryTreeDemo test37 = new MinimumDepthofBinaryTreeDemo();
+            Console.WriteLine(test37.MinDepth(root37).ToString());
         }
     }
 }
