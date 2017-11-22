@@ -198,6 +198,9 @@ namespace dotnetcoreproject
             root37.right = null;
             MinimumDepthofBinaryTreeDemo test37 = new MinimumDepthofBinaryTreeDemo();
             Console.WriteLine(test37.MinDepth(root37).ToString());
+
+            NumberComplementDemo test38 = new NumberComplementDemo();
+            Console.WriteLine(test38.FindComplement(5).ToString());
         }
     }
 }
