@@ -201,6 +201,9 @@ namespace dotnetcoreproject
 
             NumberComplementDemo test38 = new NumberComplementDemo();
             Console.WriteLine(test38.FindComplement(5).ToString());
+
+            KeyboardRowDemo test39 = new KeyboardRowDemo();
+            Console.WriteLine(test39.FindWords(new string[]{"Hello", "Alaska", "Dad", "Peace"}).ToString());
         }
     }
 }
