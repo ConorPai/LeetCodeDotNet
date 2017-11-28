@@ -204,6 +204,9 @@ namespace dotnetcoreproject
 
             KeyboardRowDemo test39 = new KeyboardRowDemo();
             Console.WriteLine(test39.FindWords(new string[]{"Hello", "Alaska", "Dad", "Peace"}).ToString());
+
+            BinaryNumberwithAlternatingBitsDemo test40 = new BinaryNumberwithAlternatingBitsDemo();
+            Console.WriteLine(test40.HasAlternatingBits(10).ToString());
         }
     }
 }
