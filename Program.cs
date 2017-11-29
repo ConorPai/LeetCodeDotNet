@@ -207,6 +207,17 @@ namespace dotnetcoreproject
 
             BinaryNumberwithAlternatingBitsDemo test40 = new BinaryNumberwithAlternatingBitsDemo();
             Console.WriteLine(test40.HasAlternatingBits(10).ToString());
+
+            int[,] grid41 = new int[,] {{0,0,1,0,0,0,0,1,0,0,0,0,0},
+                                        {0,0,0,0,0,0,0,1,1,1,0,0,0},
+                                        {0,1,1,0,1,0,0,0,0,0,0,0,0},
+                                        {0,1,0,0,1,1,0,0,1,0,1,0,0},
+                                        {0,1,0,0,1,1,0,0,1,1,1,0,0},
+                                        {0,0,0,0,0,0,0,0,0,0,1,0,0},
+                                        {0,0,0,0,0,0,0,1,1,1,0,0,0},
+                                        {0,0,0,0,0,0,0,1,1,0,0,0,0}};
+            MaxAreaofIslandDemo test41 = new MaxAreaofIslandDemo();
+            Console.WriteLine(test41.MaxAreaOfIsland(grid41).ToString());
         }
     }
 }
