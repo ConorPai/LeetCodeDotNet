@@ -222,6 +222,9 @@ namespace dotnetcoreproject
             MoveZeroesDemo test42 = new MoveZeroesDemo();
             int[] nums42 = new int[] {0, 1, 0, 3, 12};
             test42.MoveZeroes(nums42);
+
+            MissingNumberDemo test43 = new MissingNumberDemo();
+            Console.WriteLine(test43.MissingNumber(new int[]{9,6,4,2,3,5,7,0,1}).ToString());
         }
     }
 }
