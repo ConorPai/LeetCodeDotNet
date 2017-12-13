@@ -225,6 +225,9 @@ namespace dotnetcoreproject
 
             MissingNumberDemo test43 = new MissingNumberDemo();
             Console.WriteLine(test43.MissingNumber(new int[]{9,6,4,2,3,5,7,0,1}).ToString());
+
+            ArrayPartitionIDemo test44 = new ArrayPartitionIDemo();
+            Console.WriteLine(test44.ArrayPairSum(new int[]{1,4,3,2}).ToString());
         }
     }
 }
