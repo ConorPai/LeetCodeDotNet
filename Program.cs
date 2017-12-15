@@ -228,6 +228,9 @@ namespace dotnetcoreproject
 
             ArrayPartitionIDemo test44 = new ArrayPartitionIDemo();
             Console.WriteLine(test44.ArrayPairSum(new int[]{1,4,3,2}).ToString());
+
+            FindtheDifferenceDemo test45 = new FindtheDifferenceDemo();
+            Console.WriteLine(test45.FindTheDifference("abcd", "abcde").ToString());
         }
     }
 }
