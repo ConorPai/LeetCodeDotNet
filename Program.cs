@@ -231,6 +231,9 @@ namespace dotnetcoreproject
 
             FindtheDifferenceDemo test45 = new FindtheDifferenceDemo();
             Console.WriteLine(test45.FindTheDifference("abcd", "abcde").ToString());
+
+            DetectCapitalDemo test46 = new DetectCapitalDemo();
+            Console.WriteLine(test46.DetectCapitalUse("FlaG") ? "True" : "False");
         }
     }
 }
