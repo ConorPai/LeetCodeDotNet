@@ -233,7 +233,11 @@ namespace dotnetcoreproject
             Console.WriteLine(test45.FindTheDifference("abcd", "abcde").ToString());
 
             DetectCapitalDemo test46 = new DetectCapitalDemo();
-            Console.WriteLine(test46.DetectCapitalUse("FlaG") ? "True" : "False");
+            
+            
+            TwoSumIIInputarrayissortedDemo test47 = new TwoSumIIInputarrayissortedDemo();
+            int[] nRet47 = test47.TwoSum(new int[]{-1, 0}, -1);
+            Console.WriteLine(nRet47[0].ToString() + "," + nRet47[1].ToString());
         }
     }
 }
