@@ -238,6 +238,9 @@ namespace dotnetcoreproject
             TwoSumIIInputarrayissortedDemo test47 = new TwoSumIIInputarrayissortedDemo();
             int[] nRet47 = test47.TwoSum(new int[]{-1, 0}, -1);
             Console.WriteLine(nRet47[0].ToString() + "," + nRet47[1].ToString());
+
+            AddDigitsDemo test48 = new AddDigitsDemo();
+            Console.WriteLine(test48.AddDigits(38).ToString());
         }
     }
 }
