@@ -241,6 +241,9 @@ namespace dotnetcoreproject
 
             AddDigitsDemo test48 = new AddDigitsDemo();
             Console.WriteLine(test48.AddDigits(38).ToString());
+
+            MaximumProductofThreeNumbersDemo test49 = new MaximumProductofThreeNumbersDemo();
+            Console.WriteLine(test49.MaximumProduct(new int[]{1,2,3,4}).ToString());
         }
     }
 }
