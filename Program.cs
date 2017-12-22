@@ -244,6 +244,14 @@ namespace dotnetcoreproject
 
             MaximumProductofThreeNumbersDemo test49 = new MaximumProductofThreeNumbersDemo();
             Console.WriteLine(test49.MaximumProduct(new int[]{1,2,3,4}).ToString());
+
+            TreeNode root50 = new TreeNode(2);
+            root50.left = new TreeNode(2);
+            root50.right = new TreeNode(5);
+            root50.right.left = new TreeNode(5);
+            root50.right.right = new TreeNode(7);
+            SecondMinimumNodeInaBinaryTreeDemo test50 = new SecondMinimumNodeInaBinaryTreeDemo();
+            Console.WriteLine(test50.FindSecondMinimumValue(root50).ToString());
         }
     }
 }
