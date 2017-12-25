@@ -252,6 +252,13 @@ namespace dotnetcoreproject
             root50.right.right = new TreeNode(7);
             SecondMinimumNodeInaBinaryTreeDemo test50 = new SecondMinimumNodeInaBinaryTreeDemo();
             Console.WriteLine(test50.FindSecondMinimumValue(root50).ToString());
+
+            TreeNode root51 = new TreeNode(1);
+            root51.left = new TreeNode(2);
+            root51.right = new TreeNode(3);
+            root51.left.right = new TreeNode(5);
+            BinaryTreePathsDemo test51 = new BinaryTreePathsDemo();
+            Console.WriteLine(test51.BinaryTreePaths(root51).ToString());
         }
     }
 }
