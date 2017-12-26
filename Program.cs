@@ -259,6 +259,9 @@ namespace dotnetcoreproject
             root51.left.right = new TreeNode(5);
             BinaryTreePathsDemo test51 = new BinaryTreePathsDemo();
             Console.WriteLine(test51.BinaryTreePaths(root51).ToString());
+
+            StringCompressionDemo test52 = new StringCompressionDemo();
+            Console.WriteLine(test52.Compress(new char[] {'a','a','b','b','c','c','c'}).ToString());
         }
     }
 }
