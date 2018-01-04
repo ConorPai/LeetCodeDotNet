@@ -262,6 +262,9 @@ namespace dotnetcoreproject
 
             StringCompressionDemo test52 = new StringCompressionDemo();
             Console.WriteLine(test52.Compress(new char[] {'a','a','b','b','c','c','c'}).ToString());
+
+            RemoveElementDemo test53 = new RemoveElementDemo();
+            Console.WriteLine(test53.RemoveElement(new int[]{2}, 3).ToString());
         }
     }
 }
