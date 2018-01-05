@@ -265,6 +265,16 @@ namespace dotnetcoreproject
 
             RemoveElementDemo test53 = new RemoveElementDemo();
             Console.WriteLine(test53.RemoveElement(new int[]{2}, 3).ToString());
+
+            ListNode curL541 = new ListNode(1);
+            curL541.next = new ListNode(2);
+            curL541.next.next = new ListNode(4);
+
+            ListNode curL542 = new ListNode(1);
+            curL542.next = new ListNode(3);
+            curL542.next.next = new ListNode(4);
+            MergeTwoSortedListsDemo test54 = new MergeTwoSortedListsDemo();
+            ListNode lResult54 = test54.MergeTwoLists(curL541, curL542);
         }
     }
 }
