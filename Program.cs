@@ -275,6 +275,9 @@ namespace dotnetcoreproject
             curL542.next.next = new ListNode(4);
             MergeTwoSortedListsDemo test54 = new MergeTwoSortedListsDemo();
             ListNode lResult54 = test54.MergeTwoLists(curL541, curL542);
+
+            SqrtXDemo test55 = new SqrtXDemo();
+            Console.WriteLine(test55.MySqrt(8).ToString());
         }
     }
 }
