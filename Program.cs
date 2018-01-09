@@ -278,6 +278,9 @@ namespace dotnetcoreproject
 
             SqrtXDemo test55 = new SqrtXDemo();
             Console.WriteLine(test55.MySqrt(8).ToString());
+
+            FindAnagramMappingsDemo test56 = new FindAnagramMappingsDemo();
+            int[] nResult56 = test56.AnagramMappings(new int[]{12, 28, 46, 32, 50}, new int[]{50, 12, 32, 46, 28});
         }
     }
 }
