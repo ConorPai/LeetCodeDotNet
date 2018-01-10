@@ -281,6 +281,9 @@ namespace dotnetcoreproject
 
             FindAnagramMappingsDemo test56 = new FindAnagramMappingsDemo();
             int[] nResult56 = test56.AnagramMappings(new int[]{12, 28, 46, 32, 50}, new int[]{50, 12, 32, 46, 28});
+
+            MergeSortedArrayDemo test57 = new MergeSortedArrayDemo();
+            test57.Merge(new int[]{1, 3, 5, 6, 8, 10, 0, 0, 0, 0, 0, 0}, 6, new int[]{2, 4, 6, 7, 12, 13}, 6);
         }
     }
 }
