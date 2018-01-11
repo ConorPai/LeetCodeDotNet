@@ -284,6 +284,9 @@ namespace dotnetcoreproject
 
             MergeSortedArrayDemo test57 = new MergeSortedArrayDemo();
             test57.Merge(new int[]{1, 3, 5, 6, 8, 10, 0, 0, 0, 0, 0, 0}, 6, new int[]{2, 4, 6, 7, 12, 13}, 6);
+
+            ThirdMaximumNumberDemo test58 = new ThirdMaximumNumberDemo();
+            Console.WriteLine(test58.ThirdMax(new int[]{2, 2, 3, 1}).ToString());
         }
     }
 }
