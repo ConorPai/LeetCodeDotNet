@@ -287,6 +287,9 @@ namespace dotnetcoreproject
 
             ThirdMaximumNumberDemo test58 = new ThirdMaximumNumberDemo();
             Console.WriteLine(test58.ThirdMax(new int[]{2, 2, 3, 1}).ToString());
+
+            ImplementstrStrDemo test59 = new ImplementstrStrDemo();
+            Console.WriteLine(test59.StrStr("hello", "ll").ToString());
         }
     }
 }
