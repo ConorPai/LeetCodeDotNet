@@ -290,6 +290,9 @@ namespace dotnetcoreproject
 
             ImplementstrStrDemo test59 = new ImplementstrStrDemo();
             Console.WriteLine(test59.StrStr("hello", "ll").ToString());
+
+            LengthofLastWordDemo test60 = new LengthofLastWordDemo();
+            Console.WriteLine(test60.lengthOfLastWord("a ").ToString());
         }
     }
 }
