@@ -293,6 +293,9 @@ namespace dotnetcoreproject
 
             LengthofLastWordDemo test60 = new LengthofLastWordDemo();
             Console.WriteLine(test60.lengthOfLastWord("a ").ToString());
+
+            PlusOneDemo test61 = new PlusOneDemo();
+            int[] nRet = test61.PlusOne(new int[]{9, 9, 9, 9, 9});
         }
     }
 }
