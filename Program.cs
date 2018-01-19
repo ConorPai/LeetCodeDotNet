@@ -296,6 +296,9 @@ namespace dotnetcoreproject
 
             PlusOneDemo test61 = new PlusOneDemo();
             int[] nRet = test61.PlusOne(new int[]{9, 9, 9, 9, 9});
+
+            CanPlaceFlowersDemo test62 = new CanPlaceFlowersDemo();
+            test62.CanPlaceFlowers(new int[]{0, 0, 1, 0, 0, 0, 0, 1}, 2);
         }
     }
 }
