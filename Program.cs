@@ -299,6 +299,9 @@ namespace dotnetcoreproject
 
             CanPlaceFlowersDemo test62 = new CanPlaceFlowersDemo();
             test62.CanPlaceFlowers(new int[]{0, 0, 1, 0, 0, 0, 0, 1}, 2);
+
+            ToeplitzMatrixDemo test63 = new ToeplitzMatrixDemo();
+            bool bRet63 = test63.IsToeplitzMatrix(new int[,]{{1,2,3,4},{5,1,2,3},{9,5,1,2}});
         }
     }
 }
