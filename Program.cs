@@ -302,6 +302,9 @@ namespace dotnetcoreproject
 
             ToeplitzMatrixDemo test63 = new ToeplitzMatrixDemo();
             bool bRet63 = test63.IsToeplitzMatrix(new int[,]{{1,2,3,4},{5,1,2,3},{9,5,1,2}});
+
+            PerfectNumberDemo test64 = new PerfectNumberDemo();
+            bool bRet64 = test64.CheckPerfectNumber(28);
         }
     }
 }
