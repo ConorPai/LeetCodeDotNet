@@ -305,6 +305,12 @@ namespace dotnetcoreproject
 
             PerfectNumberDemo test64 = new PerfectNumberDemo();
             bool bRet64 = test64.CheckPerfectNumber(28);
+
+            MinStack test65 = new MinStack();
+            test65.Push(-2);
+            test65.Push(0);
+            test65.Push(-3);
+            int nRet65 = test65.GetMin();
         }
     }
 }
