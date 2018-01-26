@@ -1,55 +1,44 @@
 //https://leetcode.com/problems/min-stack/description/
 
+using System;
 using System.Collections.Generic;
+
+public class ListNodeMin {
+    public int val;
+    public int min;
+    public ListNodeMin next;
+    public ListNodeMin(int x, int m, ListNodeMin n) { val = x; min = m; next = n;}
+}
 
 public class MinStack {
 
-    private List<int> data = new List<int>();
+    private ListNodeMin data = null;
     /** initialize your data structure here. */
     public MinStack() {
-        data.Clear();
     }
     
     public void Push(int x) {
-
-        if (data.Count == 0)
-        {
-            data.Add(x);
-            return;
-        }
-        
-        if (GetMin() > x)
-        {
-            data.Add(x);
-            return;
-        }
-
-        int nIndex = 0;
-        for (int i = 0; i < data.Count; i++)
-        {
-            if (data[i] < x)
-            {
-                nIndex = i;
-                break;
-            }
-        }
-
-        data.Add(0);
-        for (int i = data.Count - 1; i > nIndex; i--)
-            data[i] = data[i - 1];
-        
-        data[nIndex] = x;
+        if (data == null)
+            data = new ListNodeMin(x, x, null);
+        else
+            data = new ListNodeMin(x, Math.Min(data.min, x), data);
     }
     
     public void Pop() {
-        data.Remove(data[data.Count - 1]);
+        if (data == null)
+            return;
+
+        data = data.next;
     }
     
     public int Top() {
-        return data[0];
+        return data == null ? 0 : data.val;
     }
     
     public int GetMin() {
-        return data.Count > 0 ? data[data.Count - 1] : 0;
+        if (data == null)
+            return 0;
+        
+        return data.min;
     }
 }

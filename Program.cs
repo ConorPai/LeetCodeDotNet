@@ -311,6 +311,9 @@ namespace dotnetcoreproject
             test65.Push(0);
             test65.Push(-3);
             int nRet65 = test65.GetMin();
+            nRet65 = test65.Top();
+            test65.Pop();
+            nRet65 = test65.GetMin();
         }
     }
 }
