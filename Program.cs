@@ -314,6 +314,11 @@ namespace dotnetcoreproject
             nRet65 = test65.Top();
             test65.Pop();
             nRet65 = test65.GetMin();
+
+            NumArray test66 = new NumArray(new int[]{-2, 0, 3, -5, 2, -1});
+            int nRet66 = test66.SumRange(0, 2);
+            nRet66 = test66.SumRange(2, 5);
+            nRet66 = test66.SumRange(0, 5);
         }
     }
 }
