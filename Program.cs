@@ -319,6 +319,9 @@ namespace dotnetcoreproject
             int nRet66 = test66.SumRange(0, 2);
             nRet66 = test66.SumRange(2, 5);
             nRet66 = test66.SumRange(0, 5);
+
+            JewelsandStonesDemo test67 = new JewelsandStonesDemo();
+            Console.WriteLine(test67.NumJewelsInStones("aA", "aAAbbbb").ToString());
         }
     }
 }
