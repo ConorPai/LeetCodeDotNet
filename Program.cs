@@ -322,6 +322,9 @@ namespace dotnetcoreproject
 
             JewelsandStonesDemo test67 = new JewelsandStonesDemo();
             Console.WriteLine(test67.NumJewelsInStones("aA", "aAAbbbb").ToString());
+
+            RotateArrayDemo test68 = new RotateArrayDemo();
+            test68.Rotate1(new int[]{1,2,3,4,5,6,7}, 3);
         }
     }
 }
