@@ -325,6 +325,9 @@ namespace dotnetcoreproject
 
             RotateArrayDemo test68 = new RotateArrayDemo();
             test68.Rotate1(new int[]{1,2,3,4,5,6,7}, 3);
+
+            LongestCommonPrefixDemo test69 = new LongestCommonPrefixDemo();
+            Console.WriteLine(test69.LongestCommonPrefix(new string[]{"aac", "ab"}));
         }
     }
 }
