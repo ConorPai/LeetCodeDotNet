@@ -328,6 +328,9 @@ namespace dotnetcoreproject
 
             LongestCommonPrefixDemo test69 = new LongestCommonPrefixDemo();
             Console.WriteLine(test69.LongestCommonPrefix(new string[]{"aac", "ab"}));
+
+            PartitionLabelsDemo test70 = new PartitionLabelsDemo();
+            IList<int> ret70 = test70.PartitionLabels("ababcbacadefegdehijhklij");
         }
     }
 }
