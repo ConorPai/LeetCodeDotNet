@@ -331,6 +331,9 @@ namespace dotnetcoreproject
 
             PartitionLabelsDemo test70 = new PartitionLabelsDemo();
             IList<int> ret70 = test70.PartitionLabels("ababcbacadefegdehijhklij");
+
+            SingleElementinaSortedArrayDemo test71 = new SingleElementinaSortedArrayDemo();
+            Console.WriteLine(test71.SingleNonDuplicate(new int[]{1,1,2,3,3,4,4,8,8}).ToString());
         }
     }
 }
