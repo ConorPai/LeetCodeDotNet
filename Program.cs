@@ -334,6 +334,9 @@ namespace dotnetcoreproject
 
             SingleElementinaSortedArrayDemo test71 = new SingleElementinaSortedArrayDemo();
             Console.WriteLine(test71.SingleNonDuplicate(new int[]{1,1,2,3,3,4,4,8,8}).ToString());
+
+            LetterCasePermutationDemo test72 = new LetterCasePermutationDemo();
+            IList<string> ret72 = test72.LetterCasePermutation("a1b2");
         }
     }
 }
