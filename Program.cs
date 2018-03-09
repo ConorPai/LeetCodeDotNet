@@ -337,6 +337,9 @@ namespace dotnetcoreproject
 
             LetterCasePermutationDemo test72 = new LetterCasePermutationDemo();
             IList<string> ret72 = test72.LetterCasePermutation("a1b2");
+
+            LargestNumberAtLeastTwiceofOthersDemo test73 = new LargestNumberAtLeastTwiceofOthersDemo();
+            Console.WriteLine(test73.DominantIndex(new int[]{3, 6, 1, 0}).ToString());
         }
     }
 }
