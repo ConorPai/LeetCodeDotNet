@@ -340,6 +340,9 @@ namespace dotnetcoreproject
 
             LargestNumberAtLeastTwiceofOthersDemo test73 = new LargestNumberAtLeastTwiceofOthersDemo();
             Console.WriteLine(test73.DominantIndex(new int[]{3, 6, 1, 0}).ToString());
+
+            RotateStringDemo test74 = new RotateStringDemo();
+            bool bRet74 = test74.RotateString("abcde", "cdeab");
         }
     }
 }
