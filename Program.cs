@@ -343,6 +343,9 @@ namespace dotnetcoreproject
 
             RotateStringDemo test74 = new RotateStringDemo();
             bool bRet74 = test74.RotateString("abcde", "cdeab");
+
+            LongestWordinDictionaryDemo test75 = new LongestWordinDictionaryDemo();
+            Console.WriteLine(test75.LongestWord(new string[]{"rac","rs","ra","on","r","otif","o","onpdu","rsf","rs","ot","oti","racy","onpd"}));
         }
     }
 }
