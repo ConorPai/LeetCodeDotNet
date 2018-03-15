@@ -346,6 +346,9 @@ namespace dotnetcoreproject
 
             LongestWordinDictionaryDemo test75 = new LongestWordinDictionaryDemo();
             Console.WriteLine(test75.LongestWord(new string[]{"rac","rs","ra","on","r","otif","o","onpdu","rsf","rs","ot","oti","racy","onpd"}));
+
+            FindSmallestLetterGreaterThanTargetDemo test76 = new FindSmallestLetterGreaterThanTargetDemo();
+            Console.WriteLine(test76.NextGreatestLetter(new char[]{'c', 'f', 'j'}, 'd').ToString());
         }
     }
 }
