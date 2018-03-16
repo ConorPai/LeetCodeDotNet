@@ -349,6 +349,9 @@ namespace dotnetcoreproject
 
             FindSmallestLetterGreaterThanTargetDemo test76 = new FindSmallestLetterGreaterThanTargetDemo();
             Console.WriteLine(test76.NextGreatestLetter(new char[]{'c', 'f', 'j'}, 'd').ToString());
+
+            RepeatedStringMatchDemo test77 = new RepeatedStringMatchDemo();
+            Console.WriteLine(test77.RepeatedStringMatch("abcd", "cdabcdab").ToString());
         }
     }
 }
