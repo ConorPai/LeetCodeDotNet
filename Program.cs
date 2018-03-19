@@ -352,6 +352,9 @@ namespace dotnetcoreproject
 
             RepeatedStringMatchDemo test77 = new RepeatedStringMatchDemo();
             Console.WriteLine(test77.RepeatedStringMatch("abcd", "cdabcdab").ToString());
+
+            LongestHarmoniousSubsequenceDemo test78 = new LongestHarmoniousSubsequenceDemo();
+            Console.WriteLine(test78.FindLHS(new int[]{1,2,3,3,1,-14,13,4}).ToString());
         }
     }
 }
