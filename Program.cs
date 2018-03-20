@@ -355,6 +355,9 @@ namespace dotnetcoreproject
 
             LongestHarmoniousSubsequenceDemo test78 = new LongestHarmoniousSubsequenceDemo();
             Console.WriteLine(test78.FindLHS(new int[]{1,2,3,3,1,-14,13,4}).ToString());
+
+            ShortestUnsortedContinuousSubarrayDemo test79 = new ShortestUnsortedContinuousSubarrayDemo();
+            Console.WriteLine(test79.FindUnsortedSubarray(new int[]{2, 4, 5, 8, 9, 10, 15}).ToString());
         }
     }
 }
