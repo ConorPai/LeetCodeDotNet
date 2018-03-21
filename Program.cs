@@ -358,6 +358,9 @@ namespace dotnetcoreproject
 
             ShortestUnsortedContinuousSubarrayDemo test79 = new ShortestUnsortedContinuousSubarrayDemo();
             Console.WriteLine(test79.FindUnsortedSubarray(new int[]{2, 4, 5, 8, 9, 10, 15}).ToString());
+
+            Base7Demo test80 = new Base7Demo();
+            Console.WriteLine(test80.ConvertToBase7(101));
         }
     }
 }
