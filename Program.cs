@@ -361,6 +361,15 @@ namespace dotnetcoreproject
 
             Base7Demo test80 = new Base7Demo();
             Console.WriteLine(test80.ConvertToBase7(101));
+
+            TreeNode root81 = new TreeNode(1);
+            root81.left = new TreeNode(4);
+            root81.right = new TreeNode(5);
+            root81.left.left = new TreeNode(4);
+            root81.left.right = new TreeNode(4);
+            root81.right.right = new TreeNode(5);
+            LongestUnivaluePathDemo test81 = new LongestUnivaluePathDemo();
+            Console.WriteLine(test81.LongestUnivaluePath(root81).ToString());
         }
     }
 }
