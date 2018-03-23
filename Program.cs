@@ -154,7 +154,7 @@ namespace dotnetcoreproject
             Console.WriteLine(test25.ContainsDuplicate(new int[] {3, 2, 5, 4, 3, 1, 6}) ? "true" : "false");
 
             IntersectionofTwoArraysIIDemo test26 = new IntersectionofTwoArraysIIDemo();
-            //int[] nRes26 = test26.Intersect(nNums171, nNums172);
+            int[] nRes26 = test26.Intersect(new int[]{1, 2, 2, 1}, new int[]{2, 2});
 
             DiameterofBinaryTreeDemo test27 = new DiameterofBinaryTreeDemo();
             Console.WriteLine(test27.DiameterOfBinaryTree(root23).ToString());

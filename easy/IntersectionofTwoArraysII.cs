@@ -4,29 +4,39 @@ using System.Collections.Generic;
 
 public class IntersectionofTwoArraysIIDemo {
     public int[] Intersect(int[] nums1, int[] nums2) {
-        Dictionary<int, int> map = new Dictionary<int, int>();
-        List<int> result = new List<int>();
-        for(int i = 0; i < nums1.Length; i++)
+        Dictionary<int, int> dicNum1 = new Dictionary<int, int>();
+        Dictionary<int, int> dicNum2 = new Dictionary<int, int>();
+
+        for (int i = 0; i < nums1.Length; i++)
         {
-            if(map.ContainsKey(nums1[i])) map.Add(nums1[i], map[nums1[i]]+1);
-            else map.Add(nums1[i], 1);
+            if (dicNum1.ContainsKey(nums1[i]))
+                dicNum1[nums1[i]]++;
+            else
+                dicNum1[nums1[i]] = 1;
         }
-    
-        for(int i = 0; i < nums2.Length; i++)
+        for (int i = 0; i < nums2.Length; i++)
         {
-            if(map.ContainsKey(nums2[i]) && map[nums2[i]] > 0)
+            if (dicNum2.ContainsKey(nums2[i]))
+                dicNum2[nums2[i]]++;
+            else
+                dicNum2[nums2[i]] = 1;
+        }
+
+        List<int> res = new List<int>();
+        foreach (int key in dicNum1.Keys)
+        {
+            if (dicNum2.ContainsKey(key))
             {
-                result.Add(nums2[i]);
-                map.Add(nums2[i], map[nums2[i]]-1);
+                int nCount = dicNum1[key] < dicNum2[key] ? dicNum1[key] : dicNum2[key];
+
+                while (nCount > 0)
+                {
+                    res.Add(key);
+                    nCount--;
+                }
             }
         }
-    
-       int[] r = new int[result.Count];
-       for(int i = 0; i < result.Count; i++)
-       {
-           r[i] = result[i];
-       }
-    
-       return r;
+
+        return res.ToArray();
     }
 }
