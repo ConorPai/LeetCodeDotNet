@@ -370,6 +370,9 @@ namespace dotnetcoreproject
             root81.right.right = new TreeNode(5);
             LongestUnivaluePathDemo test81 = new LongestUnivaluePathDemo();
             Console.WriteLine(test81.LongestUnivaluePath(root81).ToString());
+
+            UniqueMorseCodeWordsDemo test82 = new UniqueMorseCodeWordsDemo();
+            Console.WriteLine(test82.UniqueMorseRepresentations(new string[]{"gin", "zen", "gig", "msg"}).ToString());
         }
     }
 }
