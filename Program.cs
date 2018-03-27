@@ -373,6 +373,9 @@ namespace dotnetcoreproject
 
             UniqueMorseCodeWordsDemo test82 = new UniqueMorseCodeWordsDemo();
             Console.WriteLine(test82.UniqueMorseRepresentations(new string[]{"gin", "zen", "gig", "msg"}).ToString());
+
+            NumberofLinesToWriteStringDemo test83 = new NumberofLinesToWriteStringDemo();
+            int[] ret83 = test83.NumberOfLines(new int[]{10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10}, "abcdefghijklmnopqrstuvwxyz");
         }
     }
 }
