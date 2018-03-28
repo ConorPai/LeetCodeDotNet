@@ -376,6 +376,9 @@ namespace dotnetcoreproject
 
             NumberofLinesToWriteStringDemo test83 = new NumberofLinesToWriteStringDemo();
             int[] ret83 = test83.NumberOfLines(new int[]{10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10}, "abcdefghijklmnopqrstuvwxyz");
+
+            MaxIncreasetoKeepCitySkylineDemo test84 = new MaxIncreasetoKeepCitySkylineDemo();
+            Console.WriteLine(test84.MaxIncreaseKeepingSkyline(new int[4][]{new int[4]{3,0,8,4},new int[4]{2,4,5,7},new int[4]{9,2,6,3},new int[4]{0,3,1,0}}).ToString());
         }
     }
 }
