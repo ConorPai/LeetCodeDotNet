@@ -6,20 +6,17 @@ public class MaximumAverageSubarrayIDemo {
     public double FindMaxAverage(int[] nums, int k) {
         
         int nMax = 0;
-        for (int i = 0; i < k - 1; i++)
+        for (int i = 0; i < k; i++)
         {
             nMax += nums[i];
         }
-        List<int> max = new List<int>();
-        for (int i = k - 1; i < nums.Length; i++)
+        int nRet = nMax;
+        for (int i = k; i < nums.Length; i++)
         {
-            nMax += nums[i];
-            max.Add(nMax);
-            nMax -= nums[i - k + 1];
+            nMax = nMax + nums[i] - nums[i - k];
+            nRet = System.Math.Max(nRet, nMax);
         }
 
-        max.Sort();
-
-        return (double)max[max.Count - 1] / (double)k;
+        return (double)nRet / (double)k;
     }
 }
