@@ -379,6 +379,9 @@ namespace dotnetcoreproject
 
             MaxIncreasetoKeepCitySkylineDemo test84 = new MaxIncreasetoKeepCitySkylineDemo();
             Console.WriteLine(test84.MaxIncreaseKeepingSkyline(new int[4][]{new int[4]{3,0,8,4},new int[4]{2,4,5,7},new int[4]{9,2,6,3},new int[4]{0,3,1,0}}).ToString());
+
+            MaximumAverageSubarrayIDemo test85 = new MaximumAverageSubarrayIDemo();
+            Console.WriteLine(test85.FindMaxAverage(new int[]{1,12,-5,-6,50,3}, 4).ToString());
         }
     }
 }
