@@ -382,6 +382,9 @@ namespace dotnetcoreproject
 
             MaximumAverageSubarrayIDemo test85 = new MaximumAverageSubarrayIDemo();
             Console.WriteLine(test85.FindMaxAverage(new int[]{1,12,-5,-6,50,3}, 4).ToString());
+
+            AssignCookiesDemo test86 = new AssignCookiesDemo();
+            Console.WriteLine(test86.FindContentChildren(new int[]{1,2,3}, new int[]{1,1}));
         }
     }
 }
