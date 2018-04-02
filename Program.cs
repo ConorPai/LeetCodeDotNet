@@ -385,6 +385,12 @@ namespace dotnetcoreproject
 
             AssignCookiesDemo test86 = new AssignCookiesDemo();
             Console.WriteLine(test86.FindContentChildren(new int[]{1,2,3}, new int[]{1,1}));
+
+            SelfCrossingDemo test87 = new SelfCrossingDemo();
+            Console.WriteLine(test87.IsSelfCrossing(new int[]{2, 1, 1, 2}).ToString());
+
+            SubdomainVisitCountDemo test88 = new SubdomainVisitCountDemo();
+            IList<string> ret88 = test88.SubdomainVisits(new string[]{"9001 discuss.leetcode.com"});
         }
     }
 }
