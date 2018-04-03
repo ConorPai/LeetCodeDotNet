@@ -391,6 +391,10 @@ namespace dotnetcoreproject
 
             SubdomainVisitCountDemo test88 = new SubdomainVisitCountDemo();
             IList<string> ret88 = test88.SubdomainVisits(new string[]{"9001 discuss.leetcode.com"});
+
+            int[,] value89 = new int[,] { { 1, 1, 1 }, { 1, 0, 1 }, { 1, 1, 1 } };
+            ImageSmootherDemo test89 = new ImageSmootherDemo();
+            int[,] ret89 = test89.ImageSmoother(value89);
         }
     }
 }
