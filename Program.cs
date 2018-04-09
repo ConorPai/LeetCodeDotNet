@@ -409,6 +409,9 @@ namespace dotnetcoreproject
 
             LargestTriangleAreaDemo test91 = new LargestTriangleAreaDemo();
             Console.WriteLine(test91.LargestTriangleArea(new int[5][]{new int[2]{0,0},new int[2]{0,1},new int[2]{1,0},new int[2]{0,2},new int[2]{2,0}}).ToString());
+
+            ValidParenthesesDemo test92 = new ValidParenthesesDemo();
+            Console.WriteLine(test92.IsValid("([])").ToString());
         }
     }
 }
