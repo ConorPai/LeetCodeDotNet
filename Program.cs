@@ -412,6 +412,9 @@ namespace dotnetcoreproject
 
             ValidParenthesesDemo test92 = new ValidParenthesesDemo();
             Console.WriteLine(test92.IsValid("([])").ToString());
+
+            RemoveDuplicatesfromSortedArrayDemo test93 = new RemoveDuplicatesfromSortedArrayDemo();
+            Console.WriteLine(test93.RemoveDuplicates(new int[]{1, 1, 2}).ToString());
         }
     }
 }
