@@ -415,6 +415,9 @@ namespace dotnetcoreproject
 
             RemoveDuplicatesfromSortedArrayDemo test93 = new RemoveDuplicatesfromSortedArrayDemo();
             Console.WriteLine(test93.RemoveDuplicates(new int[]{1, 1, 2}).ToString());
+
+            CountandSayDemo test94 = new CountandSayDemo();
+            Console.WriteLine(test94.CountAndSay(6));
         }
     }
 }
