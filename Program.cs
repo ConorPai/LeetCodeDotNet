@@ -418,6 +418,9 @@ namespace dotnetcoreproject
 
             CountandSayDemo test94 = new CountandSayDemo();
             Console.WriteLine(test94.CountAndSay(6));
+
+            MaximumSubarrayDemo test95 = new MaximumSubarrayDemo();
+            Console.WriteLine(test95.MaxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}).ToString());
         }
     }
 }
