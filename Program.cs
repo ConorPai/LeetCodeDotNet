@@ -421,6 +421,12 @@ namespace dotnetcoreproject
 
             MaximumSubarrayDemo test95 = new MaximumSubarrayDemo();
             Console.WriteLine(test95.MaxSubArray(new int[]{-2,1,-3,4,-1,2,1,-5,4}).ToString());
+
+            RemoveDuplicatesfromSortedListDemo test96 = new RemoveDuplicatesfromSortedListDemo();
+            ListNode node96 = new ListNode(1);
+            node96.next = new ListNode(1);
+            node96.next.next = new ListNode(1);
+            ListNode ret96 = test96.DeleteDuplicates(node96);
         }
     }
 }
