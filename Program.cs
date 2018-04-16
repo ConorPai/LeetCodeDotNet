@@ -427,6 +427,9 @@ namespace dotnetcoreproject
             node96.next = new ListNode(1);
             node96.next.next = new ListNode(1);
             ListNode ret96 = test96.DeleteDuplicates(node96);
+
+            MostCommonWordDemo test97 = new MostCommonWordDemo();
+            Console.WriteLine(test97.MostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", new string[]{"hit"}));
         }
     }
 }
