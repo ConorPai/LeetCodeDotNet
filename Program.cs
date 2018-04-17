@@ -430,6 +430,16 @@ namespace dotnetcoreproject
 
             MostCommonWordDemo test97 = new MostCommonWordDemo();
             Console.WriteLine(test97.MostCommonWord("Bob hit a ball, the hit BALL flew far after it was hit.", new string[]{"hit"}));
+
+            TreeNode root98 = new TreeNode(1);
+            root98.left = new TreeNode(2);
+            root98.right = new TreeNode(2);
+            root98.left.left = new TreeNode(3);
+            root98.left.right = new TreeNode(4);
+            root98.right.left = new TreeNode(4);
+            root98.right.right = new TreeNode(3);
+            SymmetricTreeDemo test98 = new SymmetricTreeDemo();
+            Console.WriteLine(test98.IsSymmetric(root98).ToString());
         }
     }
 }
