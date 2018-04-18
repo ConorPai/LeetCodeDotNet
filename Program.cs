@@ -440,6 +440,18 @@ namespace dotnetcoreproject
             root98.right.right = new TreeNode(3);
             SymmetricTreeDemo test98 = new SymmetricTreeDemo();
             Console.WriteLine(test98.IsSymmetric(root98).ToString());
+
+            TreeNode root99 = new TreeNode(5);
+            root99.left = new TreeNode(4);
+            root99.right = new TreeNode(8);
+            root99.left.left = new TreeNode(11);
+            root99.left.left.left = new TreeNode(7);
+            root99.left.left.right = new TreeNode(2);
+            root99.right.left = new TreeNode(13);
+            root99.right.right = new TreeNode(4);
+            root99.right.right.right = new TreeNode(11);
+            PathSumDemo test99 = new PathSumDemo();
+            Console.WriteLine(test99.HasPathSum(root99, 22).ToString());
         }
     }
 }
