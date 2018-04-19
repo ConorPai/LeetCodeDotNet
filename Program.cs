@@ -452,6 +452,9 @@ namespace dotnetcoreproject
             root99.right.right.right = new TreeNode(11);
             PathSumDemo test99 = new PathSumDemo();
             Console.WriteLine(test99.HasPathSum(root99, 22).ToString());
+
+            PascalsTriangleDemo test100 = new PascalsTriangleDemo();
+            IList<IList<int>> ret100 = test100.Generate(5);
         }
     }
 }
