@@ -455,6 +455,9 @@ namespace dotnetcoreproject
 
             PascalsTriangleDemo test100 = new PascalsTriangleDemo();
             IList<IList<int>> ret100 = test100.Generate(5);
+
+            PascalsTriangleIIDemo test101 = new PascalsTriangleIIDemo();
+            IList<int> ret101 = test101.GetRow(6);
         }
     }
 }
