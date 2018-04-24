@@ -458,6 +458,9 @@ namespace dotnetcoreproject
 
             PascalsTriangleIIDemo test101 = new PascalsTriangleIIDemo();
             IList<int> ret101 = test101.GetRow(6);
+
+            BestTimetoBuyandSellStockDemo test102 = new BestTimetoBuyandSellStockDemo();
+            Console.WriteLine(test102.MaxProfit(new int[]{7,1,5,3,6,4}).ToString());
         }
     }
 }
