@@ -461,6 +461,9 @@ namespace dotnetcoreproject
 
             BestTimetoBuyandSellStockDemo test102 = new BestTimetoBuyandSellStockDemo();
             Console.WriteLine(test102.MaxProfit(new int[]{7,1,5,3,6,4}).ToString());
+
+            BestTimetoBuyandSellStockIIDemo test103 = new BestTimetoBuyandSellStockIIDemo();
+            Console.WriteLine(test103.MaxProfit(new int[]{7,1,5,3,6,4,3,2}).ToString());
         }
     }
 }
