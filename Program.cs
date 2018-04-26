@@ -464,6 +464,9 @@ namespace dotnetcoreproject
 
             BestTimetoBuyandSellStockIIDemo test103 = new BestTimetoBuyandSellStockIIDemo();
             Console.WriteLine(test103.MaxProfit(new int[]{7,1,5,3,6,4,3,2}).ToString());
+
+            LongestContinuousIncreasingSubsequenceDemo test104 = new LongestContinuousIncreasingSubsequenceDemo();
+            Console.WriteLine(test104.FindLengthOfLCIS(new int[]{1,3,5,7}).ToString());
         }
     }
 }
