@@ -467,6 +467,9 @@ namespace dotnetcoreproject
 
             LongestContinuousIncreasingSubsequenceDemo test104 = new LongestContinuousIncreasingSubsequenceDemo();
             Console.WriteLine(test104.FindLengthOfLCIS(new int[]{1,3,5,7}).ToString());
+
+            HappyNumberDemo test105 = new HappyNumberDemo();
+            Console.WriteLine(test105.IsHappy(18).ToString());
         }
     }
 }
