@@ -13,7 +13,6 @@ public class LongestWordinDictionaryDemo {
             return x.Length > y.Length ? 1 : -1;
         });
 
-        string sResult = "";
         List<string> listResult = new List<string>();
         foreach (string word in listWords)
         {
