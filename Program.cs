@@ -470,6 +470,9 @@ namespace dotnetcoreproject
 
             HappyNumberDemo test105 = new HappyNumberDemo();
             Console.WriteLine(test105.IsHappy(18).ToString());
+
+            PalindromeNumberDemo test106 = new PalindromeNumberDemo();
+            Console.WriteLine(test106.IsPalindrome(121).ToString());
         }
     }
 }
