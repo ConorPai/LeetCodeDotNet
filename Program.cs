@@ -473,6 +473,9 @@ namespace dotnetcoreproject
 
             PalindromeNumberDemo test106 = new PalindromeNumberDemo();
             Console.WriteLine(test106.IsPalindrome(121).ToString());
+
+            FactorialTrailingZeroesDemo test107 = new FactorialTrailingZeroesDemo();
+            Console.WriteLine(test107.TrailingZeroes(6).ToString());
         }
     }
 }
