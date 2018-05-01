@@ -476,6 +476,9 @@ namespace dotnetcoreproject
 
             FactorialTrailingZeroesDemo test107 = new FactorialTrailingZeroesDemo();
             Console.WriteLine(test107.TrailingZeroes(6).ToString());
+
+            ReverseIntegerDemo test108 = new ReverseIntegerDemo();
+            Console.WriteLine(test108.Reverse(-123).ToString());
         }
     }
 }
