@@ -479,6 +479,9 @@ namespace dotnetcoreproject
 
             ReverseIntegerDemo test108 = new ReverseIntegerDemo();
             Console.WriteLine(test108.Reverse(-123).ToString());
+
+            HouseRobberDemo test109 = new HouseRobberDemo();
+            Console.WriteLine(test109.Rob(new int[]{2,7,9,3,1}).ToString());
         }
     }
 }
