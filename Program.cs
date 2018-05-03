@@ -482,6 +482,9 @@ namespace dotnetcoreproject
 
             HouseRobberDemo test109 = new HouseRobberDemo();
             Console.WriteLine(test109.Rob(new int[]{2,7,9,3,1}).ToString());
+
+            MinCostClimbingStairsDemo test110 = new MinCostClimbingStairsDemo();
+            Console.WriteLine(test110.MinCostClimbingStairs(new int[]{0, 1, 1, 0}).ToString());
         }
     }
 }
