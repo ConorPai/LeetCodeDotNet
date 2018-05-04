@@ -485,6 +485,9 @@ namespace dotnetcoreproject
 
             MinCostClimbingStairsDemo test110 = new MinCostClimbingStairsDemo();
             Console.WriteLine(test110.MinCostClimbingStairs(new int[]{0, 1, 1, 0}).ToString());
+
+            ShortestDistancetoaCharacterDemo test111 = new ShortestDistancetoaCharacterDemo();
+            int[] nRet111 = test111.ShortestToChar("loveleetcode", 'e');
         }
     }
 }
