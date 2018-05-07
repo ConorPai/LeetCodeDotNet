@@ -488,6 +488,9 @@ namespace dotnetcoreproject
 
             ShortestDistancetoaCharacterDemo test111 = new ShortestDistancetoaCharacterDemo();
             int[] nRet111 = test111.ShortestToChar("loveleetcode", 'e');
+
+            PositionsofLargeGroupsDemo test112 = new PositionsofLargeGroupsDemo();
+            IList<IList<int>> ret112 = test112.LargeGroupPositions("abcdddeeeeaabbbcd");
         }
     }
 }
