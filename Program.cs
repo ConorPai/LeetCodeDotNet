@@ -491,6 +491,9 @@ namespace dotnetcoreproject
 
             PositionsofLargeGroupsDemo test112 = new PositionsofLargeGroupsDemo();
             IList<IList<int>> ret112 = test112.LargeGroupPositions("abcdddeeeeaabbbcd");
+
+            GoatLatinDemo test113 = new GoatLatinDemo();
+            Console.WriteLine(test113.ToGoatLatin("The quick brown fox jumped over the lazy dog"));
         }
     }
 }
