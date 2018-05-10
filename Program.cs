@@ -494,6 +494,9 @@ namespace dotnetcoreproject
 
             GoatLatinDemo test113 = new GoatLatinDemo();
             Console.WriteLine(test113.ToGoatLatin("The quick brown fox jumped over the lazy dog"));
+
+            DistributeCandiesDemo test114 = new DistributeCandiesDemo();
+            Console.WriteLine(test114.DistributeCandies(new int[]{1,1,2,3}).ToString());
         }
     }
 }
