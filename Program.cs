@@ -497,6 +497,9 @@ namespace dotnetcoreproject
 
             DistributeCandiesDemo test114 = new DistributeCandiesDemo();
             Console.WriteLine(test114.DistributeCandies(new int[]{1,1,2,3}).ToString());
+
+            NumberofSegmentsinaStringDemo test115 = new NumberofSegmentsinaStringDemo();
+            Console.WriteLine(test115.CountSegments(", , , ,        a, eaefa").ToString());
         }
     }
 }
