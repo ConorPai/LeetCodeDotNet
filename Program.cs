@@ -500,6 +500,9 @@ namespace dotnetcoreproject
 
             NumberofSegmentsinaStringDemo test115 = new NumberofSegmentsinaStringDemo();
             Console.WriteLine(test115.CountSegments(", , , ,        a, eaefa").ToString());
+
+            FlippinganImageDemo test116 = new FlippinganImageDemo();
+            int[][] ret116 = test116.FlipAndInvertImage(new int[4][]{new int[4]{1,1,0,0},new int[4]{1,0,0,1},new int[4]{0,1,1,1},new int[4]{1,0,1,0}});
         }
     }
 }
