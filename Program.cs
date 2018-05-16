@@ -503,6 +503,9 @@ namespace dotnetcoreproject
 
             FlippinganImageDemo test116 = new FlippinganImageDemo();
             int[][] ret116 = test116.FlipAndInvertImage(new int[4][]{new int[4]{1,1,0,0},new int[4]{1,0,0,1},new int[4]{0,1,1,1},new int[4]{1,0,1,0}});
+
+            FloodFillDemo test117 = new FloodFillDemo();
+            int[,] ret117 = test117.FloodFill(new int[2,3]{{0,0,0},{0,1,1}}, 1, 1, 1);
         }
     }
 }
