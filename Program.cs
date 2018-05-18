@@ -508,7 +508,7 @@ namespace dotnetcoreproject
             int[,] ret117 = test117.FloodFill(new int[2,3]{{0,0,0},{0,1,1}}, 1, 1, 1);
 
             BaseballGameDemo test118 = new BaseballGameDemo();
-            Console.WriteLine(test118.CalPoints(new string[]{"-60","D","-36","30","13","C","C","-33","53","79"}).ToString());
+            Console.WriteLine(test118.CalPoints(new string[]{"5","-2","4","C","D","9","+","+"}).ToString());
         }
     }
 }
