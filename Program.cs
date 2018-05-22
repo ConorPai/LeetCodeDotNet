@@ -512,6 +512,9 @@ namespace dotnetcoreproject
 
             RectangleOverlapDemo test119 = new RectangleOverlapDemo();
             Console.WriteLine(test119.IsRectangleOverlap(new int[]{0,0,1,1}, new int[]{1,0,2,1}).ToString());
+
+            IsomorphicStringsDemo test120 = new IsomorphicStringsDemo();
+            Console.WriteLine(test120.IsIsomorphic("foo", "bar").ToString());
         }
     }
 }
