@@ -515,6 +515,9 @@ namespace dotnetcoreproject
 
             IsomorphicStringsDemo test120 = new IsomorphicStringsDemo();
             Console.WriteLine(test120.IsIsomorphic("foo", "bar").ToString());
+
+            SumofSquareNumbersDemo test121 = new SumofSquareNumbersDemo();
+            Console.WriteLine(test121.JudgeSquareSum(5).ToString());
         }
     }
 }
