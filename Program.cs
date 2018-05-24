@@ -518,6 +518,9 @@ namespace dotnetcoreproject
 
             SumofSquareNumbersDemo test121 = new SumofSquareNumbersDemo();
             Console.WriteLine(test121.JudgeSquareSum(5).ToString());
+
+            MinimumIndexSumofTwoListsDemo test122 = new MinimumIndexSumofTwoListsDemo();
+            string[] ret122 = test122.FindRestaurant(new string[]{"Shogun", "Tapioca Express", "Burger King", "KFC"}, new string[]{"KFC", "Shogun", "Burger King"});
         }
     }
 }
