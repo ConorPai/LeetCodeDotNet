@@ -521,6 +521,9 @@ namespace dotnetcoreproject
 
             MinimumIndexSumofTwoListsDemo test122 = new MinimumIndexSumofTwoListsDemo();
             string[] ret122 = test122.FindRestaurant(new string[]{"Shogun", "Tapioca Express", "Burger King", "KFC"}, new string[]{"KFC", "Shogun", "Burger King"});
+
+            HeatersDemo test123 = new HeatersDemo();
+            Console.WriteLine(test123.FindRadius(new int[]{1, 5}, new int[]{2}).ToString());
         }
     }
 }
