@@ -524,6 +524,9 @@ namespace dotnetcoreproject
 
             HeatersDemo test123 = new HeatersDemo();
             Console.WriteLine(test123.FindRadius(new int[]{1, 5}, new int[]{2}).ToString());
+
+            MagicSquaresInGridDemo test124 = new MagicSquaresInGridDemo();
+            Console.WriteLine(test124.NumMagicSquaresInside(new int[3][]{new int[4]{4,3,8,4},new int[4]{9,5,1,9},new int[4]{2,7,6,2}}).ToString());
         }
     }
 }
