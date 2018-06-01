@@ -527,6 +527,9 @@ namespace dotnetcoreproject
 
             MagicSquaresInGridDemo test124 = new MagicSquaresInGridDemo();
             Console.WriteLine(test124.NumMagicSquaresInside(new int[3][]{new int[4]{4,3,8,4},new int[4]{9,5,1,9},new int[4]{2,7,6,2}}).ToString());
+
+            MajorityElementDemo test125 = new MajorityElementDemo();
+            Console.WriteLine(test125.MajorityElement(new int[]{1}));
         }
     }
 }
