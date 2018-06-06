@@ -530,6 +530,9 @@ namespace dotnetcoreproject
 
             MajorityElementDemo test125 = new MajorityElementDemo();
             Console.WriteLine(test125.MajorityElement(new int[]{1}));
+
+            BackspaceStringCompareDemo test126 = new BackspaceStringCompareDemo();
+            Console.WriteLine(test126.BackspaceCompare("ab##", "a#c#").ToString());
         }
     }
 }
