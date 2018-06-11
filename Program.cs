@@ -533,6 +533,9 @@ namespace dotnetcoreproject
 
             BackspaceStringCompareDemo test126 = new BackspaceStringCompareDemo();
             Console.WriteLine(test126.BackspaceCompare("ab##", "a#c#").ToString());
+
+            MaximizeDistancetoClosestPersonDemo test127 = new MaximizeDistancetoClosestPersonDemo();
+            Console.WriteLine(test127.MaxDistToClosest(new int[]{1,0,0,0}).ToString());
         }
     }
 }
