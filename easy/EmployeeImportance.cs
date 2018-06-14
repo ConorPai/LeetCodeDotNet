@@ -23,33 +23,25 @@ public class Employee {
 public class EmployeeImportanceDemo {
     public int getImportance(List<Employee> employees, int id) {
         
-        Employee eRoot = null;
         Dictionary<int, Employee> empDicts = new Dictionary<int, Employee>();
         foreach (Employee e in employees)
-        {
             empDicts[e.id] = e;
-            if (e.id == id)
-                eRoot = e;
-        }
 
-        if (eRoot == null)
-            return 0;
-
-        return getImportance(empDicts, eRoot);
+        return getImportance(empDicts, id);
     }
 
-    private int getImportance(Dictionary<int, Employee> empDicts, Employee eRoot)
+    private int getImportance(Dictionary<int, Employee> empDicts, int nRoot)
     {
-        if (eRoot == null)
+        if (!empDicts.ContainsKey(nRoot))
             return 0;
         
-        int nTotalImportance = eRoot.importance;
+        int nTotalImportance = empDicts[nRoot].importance;
 
-        if (eRoot.subordinates == null)
+        if (empDicts[nRoot].subordinates == null)
             return nTotalImportance;
 
-        foreach(int nID in eRoot.subordinates)
-            nTotalImportance += getImportance(empDicts, empDicts[nID]);
+        foreach(int nID in empDicts[nRoot].subordinates)
+            nTotalImportance += getImportance(empDicts, nID);
 
         return nTotalImportance;
     }
