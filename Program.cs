@@ -536,6 +536,13 @@ namespace dotnetcoreproject
 
             MaximizeDistancetoClosestPersonDemo test127 = new MaximizeDistancetoClosestPersonDemo();
             Console.WriteLine(test127.MaxDistToClosest(new int[]{1,0,0,0}).ToString());
+
+            EmployeeImportanceDemo test128 = new EmployeeImportanceDemo();
+            List<Employee> es = new List<Employee>();
+            es.Add(new Employee(1, 5, new List<int>(){2, 3}));
+            es.Add(new Employee(2, 3, null));
+            es.Add(new Employee(3, 3, null));
+            Console.WriteLine(test128.getImportance(es, 1).ToString());
         }
     }
 }
