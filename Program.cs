@@ -543,6 +543,9 @@ namespace dotnetcoreproject
             es.Add(new Employee(2, 3, null));
             es.Add(new Employee(3, 3, null));
             Console.WriteLine(test128.getImportance(es, 1).ToString());
+
+            PeakIndexinaMountainArrayDemo test129 = new PeakIndexinaMountainArrayDemo();
+            Console.WriteLine(test129.PeakIndexInMountainArray(new int[]{0,2,1,0}).ToString());
         }
     }
 }
