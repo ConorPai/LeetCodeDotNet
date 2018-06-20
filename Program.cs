@@ -546,6 +546,14 @@ namespace dotnetcoreproject
 
             PeakIndexinaMountainArrayDemo test129 = new PeakIndexinaMountainArrayDemo();
             Console.WriteLine(test129.PeakIndexInMountainArray(new int[]{0,2,1,0}).ToString());
+
+            ExamRoom test130 = new ExamRoom(10);
+            Console.WriteLine(test130.Seat().ToString());
+            Console.WriteLine(test130.Seat().ToString());
+            Console.WriteLine(test130.Seat().ToString());
+            Console.WriteLine(test130.Seat().ToString());
+            test130.Leave(4);
+            Console.WriteLine(test130.Seat().ToString());
         }
     }
 }
