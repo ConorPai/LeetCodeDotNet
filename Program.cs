@@ -554,6 +554,9 @@ namespace dotnetcoreproject
             Console.WriteLine(test130.Seat().ToString());
             test130.Leave(4);
             Console.WriteLine(test130.Seat().ToString());
+
+            HandofStraightsDemo test131 = new HandofStraightsDemo();
+            Console.WriteLine(test131.IsNStraightHand(new int[]{1,2,3,6,2,3,4,7,8}, 3).ToString());
         }
     }
 }
