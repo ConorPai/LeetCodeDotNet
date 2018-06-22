@@ -557,6 +557,9 @@ namespace dotnetcoreproject
 
             HandofStraightsDemo test131 = new HandofStraightsDemo();
             Console.WriteLine(test131.IsNStraightHand(new int[]{1,2,3,6,2,3,4,7,8}, 3).ToString());
+
+            CarFleetDemo test132 = new CarFleetDemo();
+            Console.WriteLine(test132.CarFleet(12, new int[]{10,8,0,5,3}, new int[]{2,4,1,1,3}).ToString());
         }
     }
 }
