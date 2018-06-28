@@ -563,6 +563,9 @@ namespace dotnetcoreproject
 
             ShiftingLettersDemo test133 = new ShiftingLettersDemo();
             Console.WriteLine(test133.ShiftingLetters("ruu", new int[]{26, 9, 17}));
+
+            LongestMountaininArrayDemo test134 = new LongestMountaininArrayDemo();
+            Console.WriteLine(test134.LongestMountain(new int[]{1,1,0,0,1,0}).ToString());
         }
     }
 }
