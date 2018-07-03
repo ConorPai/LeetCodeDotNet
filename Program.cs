@@ -566,6 +566,9 @@ namespace dotnetcoreproject
 
             LongestMountaininArrayDemo test134 = new LongestMountaininArrayDemo();
             Console.WriteLine(test134.LongestMountain(new int[]{1,1,0,0,1,0}).ToString());
+
+            LemonadeChangeDemo test135 = new LemonadeChangeDemo();
+            Console.WriteLine(test135.LemonadeChange(new int[]{5,5,5,5,20,20,5,5,5,5}).ToString());
         }
     }
 }
