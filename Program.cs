@@ -569,6 +569,9 @@ namespace dotnetcoreproject
 
             LemonadeChangeDemo test135 = new LemonadeChangeDemo();
             Console.WriteLine(test135.LemonadeChange(new int[]{5,5,5,5,20,20,5,5,5,5}).ToString());
+
+            ScoreAfterFlippingMatrixDemo test136 = new ScoreAfterFlippingMatrixDemo();
+            Console.WriteLine(test136.MatrixScore(new int[3][]{new int[4]{0,0,1,1}, new int[4]{1,0,1,0}, new int[4]{1,1,0,0}}).ToString());
         }
     }
 }
