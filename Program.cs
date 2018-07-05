@@ -572,6 +572,9 @@ namespace dotnetcoreproject
 
             ScoreAfterFlippingMatrixDemo test136 = new ScoreAfterFlippingMatrixDemo();
             Console.WriteLine(test136.MatrixScore(new int[3][]{new int[4]{0,0,1,1}, new int[4]{1,0,1,0}, new int[4]{1,1,0,0}}).ToString());
+
+            KeysandRoomsDemo test137 = new KeysandRoomsDemo();
+            Console.WriteLine(test137.CanVisitAllRooms(new List<IList<int>>(){new List<int>(){1,3}, new List<int>(){3,0,1}, new List<int>(){2}, new List<int>(){0}}).ToString());
         }
     }
 }
