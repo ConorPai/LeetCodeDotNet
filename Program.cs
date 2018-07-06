@@ -575,6 +575,9 @@ namespace dotnetcoreproject
 
             KeysandRoomsDemo test137 = new KeysandRoomsDemo();
             Console.WriteLine(test137.CanVisitAllRooms(new List<IList<int>>(){new List<int>(){1,3}, new List<int>(){3,0,1}, new List<int>(){2}, new List<int>(){0}}).ToString());
+
+            ReshapetheMatrixDemo test138 = new ReshapetheMatrixDemo();
+            int[,] ret138 = test138.MatrixReshape(new int[2, 2]{{1, 2}, {3, 4}}, 2, 4);
         }
     }
 }
