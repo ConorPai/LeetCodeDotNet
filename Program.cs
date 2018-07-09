@@ -578,6 +578,9 @@ namespace dotnetcoreproject
 
             ReshapetheMatrixDemo test138 = new ReshapetheMatrixDemo();
             int[,] ret138 = test138.MatrixReshape(new int[2, 2]{{1, 2}, {3, 4}}, 2, 4);
+
+            TransposeMatrixDemo test139 = new TransposeMatrixDemo();
+            int[][] ret139 = test139.Transpose(new int[2][]{new int[3]{1,2,3}, new int[3]{4,5,6}});
         }
     }
 }
