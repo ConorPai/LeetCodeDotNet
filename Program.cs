@@ -581,6 +581,13 @@ namespace dotnetcoreproject
 
             TransposeMatrixDemo test139 = new TransposeMatrixDemo();
             int[][] ret139 = test139.Transpose(new int[2][]{new int[3]{1,2,3}, new int[3]{4,5,6}});
+
+            MyQueue test140 = new MyQueue();
+            test140.Push(1);
+            test140.Push(2);
+            int ret1401 = test140.Peek();
+            int ret1402 = test140.Pop();
+            bool retb140 = test140.Empty();
         }
     }
 }
