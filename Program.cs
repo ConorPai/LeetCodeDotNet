@@ -588,6 +588,9 @@ namespace dotnetcoreproject
             int ret1401 = test140.Peek();
             int ret1402 = test140.Pop();
             bool retb140 = test140.Empty();
+
+            LicenseKeyFormattingDemo test141 = new LicenseKeyFormattingDemo();
+            Console.WriteLine(test141.LicenseKeyFormatting("--a-a-a-a--", 2));
         }
     }
 }
