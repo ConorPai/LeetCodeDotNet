@@ -591,6 +591,9 @@ namespace dotnetcoreproject
 
             LicenseKeyFormattingDemo test141 = new LicenseKeyFormattingDemo();
             Console.WriteLine(test141.LicenseKeyFormatting("--a-a-a-a--", 2));
+
+            ToLowerCaseDemo test142 = new ToLowerCaseDemo();
+            Console.WriteLine(test142.ToLowerCase("Hello"));
         }
     }
 }
