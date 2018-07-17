@@ -594,6 +594,9 @@ namespace dotnetcoreproject
 
             ToLowerCaseDemo test142 = new ToLowerCaseDemo();
             Console.WriteLine(test142.ToLowerCase("Hello"));
+
+            BinaryGapDemo test143 = new BinaryGapDemo();
+            Console.WriteLine(test143.BinaryGap(5).ToString());
         }
     }
 }
