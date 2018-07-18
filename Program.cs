@@ -597,6 +597,9 @@ namespace dotnetcoreproject
 
             BinaryGapDemo test143 = new BinaryGapDemo();
             Console.WriteLine(test143.BinaryGap(5).ToString());
+
+            BuddyStringsDemo test144 = new BuddyStringsDemo();
+            Console.WriteLine(test144.BuddyStrings("ab", "ab").ToString());
         }
     }
 }
