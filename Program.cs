@@ -600,6 +600,9 @@ namespace dotnetcoreproject
 
             BuddyStringsDemo test144 = new BuddyStringsDemo();
             Console.WriteLine(test144.BuddyStrings("ab", "ab").ToString());
+
+            FirstUniqueCharacterinaStringDemo test145 = new FirstUniqueCharacterinaStringDemo();
+            Console.WriteLine(test145.FirstUniqChar("loveleetcode").ToString());
         }
     }
 }
