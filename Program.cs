@@ -603,6 +603,9 @@ namespace dotnetcoreproject
 
             FirstUniqueCharacterinaStringDemo test145 = new FirstUniqueCharacterinaStringDemo();
             Console.WriteLine(test145.FirstUniqChar("loveleetcode").ToString());
+
+            StudentAttendanceRecordIDemo test146 = new StudentAttendanceRecordIDemo();
+            Console.WriteLine(test146.CheckRecord("PPALLL").ToString());
         }
     }
 }
