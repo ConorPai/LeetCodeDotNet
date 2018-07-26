@@ -633,6 +633,9 @@ namespace dotnetcoreproject
         
             BinarySearchDemo test148 = new BinarySearchDemo();
             Console.WriteLine(test148.Search(new int[]{5}, -5).ToString());
+
+            RemoveLinkedListElementsDemo test149 = new RemoveLinkedListElementsDemo();
+            ListNode ret149 = test149.RemoveElements(new ListNode(1), 1);
         }
     }
 }
