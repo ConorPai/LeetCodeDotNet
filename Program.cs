@@ -636,6 +636,9 @@ namespace dotnetcoreproject
 
             RemoveLinkedListElementsDemo test149 = new RemoveLinkedListElementsDemo();
             ListNode ret149 = test149.RemoveElements(new ListNode(1), 1);
+
+            WalkingRobotSimulationDemo test150 = new WalkingRobotSimulationDemo();
+            Console.WriteLine(test150.RobotSim(new int[]{4,-1,4,-2,4}, new int[][]{new int[]{2,4}}).ToString());
         }
     }
 }
