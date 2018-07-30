@@ -639,6 +639,22 @@ namespace dotnetcoreproject
 
             WalkingRobotSimulationDemo test150 = new WalkingRobotSimulationDemo();
             Console.WriteLine(test150.RobotSim(new int[]{4,-1,4,-2,4}, new int[][]{new int[]{2,4}}).ToString());
+
+            LeafSimilarTreesDemo test151 = new LeafSimilarTreesDemo();
+            TreeNode root151 = new TreeNode(2);
+            root151.left = new TreeNode(2);
+            root151.right = new TreeNode(5);
+            root151.right.left = new TreeNode(5);
+            root151.right.right = new TreeNode(7);
+
+            TreeNode root152 = new TreeNode(2);
+            root152.left = new TreeNode(2);
+            root152.right = new TreeNode(5);
+            root152.left.left = new TreeNode(2);
+            root152.left.right = new TreeNode(5);
+            root152.right.right = new TreeNode(7);
+
+            Console.WriteLine(test151.LeafSimilar(root151, root152).ToString());
         }
     }
 }
