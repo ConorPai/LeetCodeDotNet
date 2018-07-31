@@ -655,6 +655,14 @@ namespace dotnetcoreproject
             root152.right.right = new TreeNode(7);
 
             Console.WriteLine(test151.LeafSimilar(root151, root152).ToString());
+
+            MiddleoftheLinkedListDemo test152 = new MiddleoftheLinkedListDemo();
+            ListNode data152 = new ListNode(1);
+            data152.next = new ListNode(2);
+            data152.next.next = new ListNode(3);
+            data152.next.next.next = new ListNode(4);
+            data152.next.next.next.next = new ListNode(5);
+            ListNode ret152 = test152.MiddleNode(data152);
         }
     }
 }
