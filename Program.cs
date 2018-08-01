@@ -663,6 +663,13 @@ namespace dotnetcoreproject
             data152.next.next.next = new ListNode(4);
             data152.next.next.next.next = new ListNode(5);
             ListNode ret152 = test152.MiddleNode(data152);
+
+            GenerateRandomPointinaCircleDemo test153 = new GenerateRandomPointinaCircleDemo(0.01, -73839.1, -3289891.3);
+            for (int i = 0; i < 100000; i++)
+            {
+                double[] ret153 = test153.RandPoint();
+                Console.WriteLine("output point X:" + ret153[0].ToString() + ",Y:" + ret153[1].ToString());
+            }
         }
     }
 }
