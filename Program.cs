@@ -670,6 +670,9 @@ namespace dotnetcoreproject
                 double[] ret153 = test153.RandPoint();
                 Console.WriteLine("output point X:" + ret153[0].ToString() + ",Y:" + ret153[1].ToString());
             }
+
+            ArrangingCoinsDemo test154 = new ArrangingCoinsDemo();
+            Console.WriteLine(test154.ArrangeCoins(5).ToString());
         }
     }
 }
