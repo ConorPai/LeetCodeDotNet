@@ -673,6 +673,9 @@ namespace dotnetcoreproject
 
             ArrangingCoinsDemo test154 = new ArrangingCoinsDemo();
             Console.WriteLine(test154.ArrangeCoins(5).ToString());
+
+            ConstructQuadTreeDemo test155 = new ConstructQuadTreeDemo();
+            Node ret155 = test155.Construct(new int[8][]{new int[]{1,1,1,1,0,0,0,0},new int[]{1,1,1,1,0,0,0,0},new int[]{1,1,1,1,1,1,1,1},new int[]{1,1,1,1,1,1,1,1},new int[]{1,1,1,1,0,0,0,0},new int[]{1,1,1,1,0,0,0,0},new int[]{1,1,1,1,0,0,0,0},new int[]{1,1,1,1,0,0,0,0}});
         }
     }
 }
