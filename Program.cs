@@ -676,6 +676,9 @@ namespace dotnetcoreproject
 
             ConstructQuadTreeDemo test155 = new ConstructQuadTreeDemo();
             Node ret155 = test155.Construct(new int[8][]{new int[]{1,1,1,1,0,0,0,0},new int[]{1,1,1,1,0,0,0,0},new int[]{1,1,1,1,1,1,1,1},new int[]{1,1,1,1,1,1,1,1},new int[]{1,1,1,1,0,0,0,0},new int[]{1,1,1,1,0,0,0,0},new int[]{1,1,1,1,0,0,0,0},new int[]{1,1,1,1,0,0,0,0}});
+
+            RelativeRanksDemo test156 = new RelativeRanksDemo();
+            string[] ret156 = test156.FindRelativeRanks(new int[]{5, 4, 3, 2, 1});
         }
     }
 }
