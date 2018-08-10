@@ -679,6 +679,9 @@ namespace dotnetcoreproject
 
             RelativeRanksDemo test156 = new RelativeRanksDemo();
             string[] ret156 = test156.FindRelativeRanks(new int[]{5, 4, 3, 2, 1});
+
+            SubsetsDemo test157 = new SubsetsDemo();
+            IList<IList<int>> ret157 = test157.Subsets(new int[]{1, 2, 3});
         }
     }
 }
