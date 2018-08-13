@@ -682,6 +682,9 @@ namespace dotnetcoreproject
 
             SubsetsDemo test157 = new SubsetsDemo();
             IList<IList<int>> ret157 = test157.Subsets(new int[]{1, 2, 3});
+
+            ProjectionAreaof3DShapesDemo test158 = new ProjectionAreaof3DShapesDemo();
+            Console.WriteLine(test158.ProjectionArea(new int[3][]{new int[]{1,1,1}, new int[]{1,0,1}, new int[]{1,1,1}}).ToString());
         }
     }
 }
