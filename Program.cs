@@ -685,6 +685,9 @@ namespace dotnetcoreproject
 
             ProjectionAreaof3DShapesDemo test158 = new ProjectionAreaof3DShapesDemo();
             Console.WriteLine(test158.ProjectionArea(new int[3][]{new int[]{1,1,1}, new int[]{1,0,1}, new int[]{1,1,1}}).ToString());
+
+            UncommonWordsfromTwoSentencesDemo test159 = new UncommonWordsfromTwoSentencesDemo();
+            string[] ret159 = test159.UncommonFromSentences("this apple is sweet", "this apple is sour");
         }
     }
 }
