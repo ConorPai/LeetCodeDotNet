@@ -688,6 +688,13 @@ namespace dotnetcoreproject
 
             UncommonWordsfromTwoSentencesDemo test159 = new UncommonWordsfromTwoSentencesDemo();
             string[] ret159 = test159.UncommonFromSentences("this apple is sweet", "this apple is sour");
+
+            KthLargest kthLargest = new KthLargest(2, new int[]{0});
+            Console.WriteLine("kthLargest result 1 is " + kthLargest.Add(-1).ToString());
+            Console.WriteLine("kthLargest result 1 is " + kthLargest.Add(5).ToString());
+            Console.WriteLine("kthLargest result 1 is " + kthLargest.Add(10).ToString());
+            Console.WriteLine("kthLargest result 1 is " + kthLargest.Add(9).ToString());
+            Console.WriteLine("kthLargest result 1 is " + kthLargest.Add(4).ToString());
         }
     }
 }
