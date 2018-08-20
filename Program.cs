@@ -695,6 +695,9 @@ namespace dotnetcoreproject
             Console.WriteLine("kthLargest result 1 is " + kthLargest.Add(10).ToString());
             Console.WriteLine("kthLargest result 1 is " + kthLargest.Add(9).ToString());
             Console.WriteLine("kthLargest result 1 is " + kthLargest.Add(4).ToString());
+
+            NimGameDemo test161 = new NimGameDemo();
+            Console.WriteLine(test161.CanWinNim(7).ToString());
         }
     }
 }
