@@ -698,6 +698,9 @@ namespace dotnetcoreproject
 
             NimGameDemo test161 = new NimGameDemo();
             Console.WriteLine(test161.CanWinNim(7).ToString());
+
+            SurfaceAreaof3DShapesDemo test162 = new SurfaceAreaof3DShapesDemo();
+            Console.WriteLine(test162.SurfaceArea(new int[3][]{new int[]{2,2,2}, new int[]{2,1,2}, new int[]{2,2,2}}).ToString());
         }
     }
 }

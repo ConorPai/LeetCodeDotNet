@@ -11,9 +11,10 @@ public class Node2 {
     public Node2(int _val,IList<Node2> _children) {
         val = _val;
         children = _children;
+    }
 }
 
-public class MaximumDepthofN-aryTreeDemo {
+public class MaximumDepthofNaryTreeDemo {
     public int MaxDepth(Node2 root) {
         
         if (root == null)
