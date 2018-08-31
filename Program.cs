@@ -701,6 +701,9 @@ namespace dotnetcoreproject
 
             SurfaceAreaof3DShapesDemo test162 = new SurfaceAreaof3DShapesDemo();
             Console.WriteLine(test162.SurfaceArea(new int[3][]{new int[]{2,2,2}, new int[]{2,1,2}, new int[]{2,2,2}}).ToString());
+
+            FairCandySwapDemo test163 = new FairCandySwapDemo();
+            test163.FairCandySwap(new int[]{1, 1}, new int[]{2, 2});
         }
     }
 }
