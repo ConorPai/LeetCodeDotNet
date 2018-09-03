@@ -704,6 +704,28 @@ namespace dotnetcoreproject
 
             FairCandySwapDemo test163 = new FairCandySwapDemo();
             test163.FairCandySwap(new int[]{1, 1}, new int[]{2, 2});
+
+            FreqStackDemo test164 = new FreqStackDemo();
+            test164.Push(1);
+            test164.Push(0);
+            test164.Push(0);
+            test164.Push(1);
+            test164.Push(5);
+            test164.Push(4);
+            test164.Push(1);
+            test164.Push(5);
+            test164.Push(1);
+            test164.Push(6);
+            Console.WriteLine(test164.Pop().ToString());
+            Console.WriteLine(test164.Pop().ToString());
+            Console.WriteLine(test164.Pop().ToString());
+            Console.WriteLine(test164.Pop().ToString());
+            Console.WriteLine(test164.Pop().ToString());
+            Console.WriteLine(test164.Pop().ToString());
+            Console.WriteLine(test164.Pop().ToString());
+            Console.WriteLine(test164.Pop().ToString());
+            Console.WriteLine(test164.Pop().ToString());
+            Console.WriteLine(test164.Pop().ToString());
         }
     }
 }
