@@ -726,6 +726,9 @@ namespace dotnetcoreproject
             Console.WriteLine(test164.Pop().ToString());
             Console.WriteLine(test164.Pop().ToString());
             Console.WriteLine(test164.Pop().ToString());
+
+            MonotonicArrayDemo test165 = new MonotonicArrayDemo();
+            Console.WriteLine(test165.IsMonotonic(new int[]{1,1,1}).ToString());
         }
     }
 }
