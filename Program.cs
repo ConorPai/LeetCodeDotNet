@@ -729,6 +729,18 @@ namespace dotnetcoreproject
 
             MonotonicArrayDemo test165 = new MonotonicArrayDemo();
             Console.WriteLine(test165.IsMonotonic(new int[]{1,1,1}).ToString());
+
+            TreeNode root166 = new TreeNode(5);
+            root166.left = new TreeNode(3);
+            root166.left.left = new TreeNode(2);
+            root166.left.right = new TreeNode(4);
+            root166.left.left.left = new TreeNode(1);
+            root166.right = new TreeNode(6);
+            root166.right.right = new TreeNode(8);
+            root166.right.right.left = new TreeNode(7);
+            root166.right.right.right = new TreeNode(9);
+            IncreasingOrderSearchTreeDemo test166 = new IncreasingOrderSearchTreeDemo();
+            TreeNode nRet167 = test166.IncreasingBST(root166);
         }
     }
 }
