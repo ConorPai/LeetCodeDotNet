@@ -741,6 +741,9 @@ namespace dotnetcoreproject
             root166.right.right.right = new TreeNode(9);
             IncreasingOrderSearchTreeDemo test166 = new IncreasingOrderSearchTreeDemo();
             TreeNode nRet167 = test166.IncreasingBST(root166);
+
+            BitwiseORsofSubarraysDemo test168 = new BitwiseORsofSubarraysDemo();
+            Console.WriteLine(test168.SubarrayBitwiseORs(new int[]{1,1,2}).ToString());
         }
     }
 }
