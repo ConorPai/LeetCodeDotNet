@@ -744,6 +744,9 @@ namespace dotnetcoreproject
 
             BitwiseORsofSubarraysDemo test168 = new BitwiseORsofSubarraysDemo();
             Console.WriteLine(test168.SubarrayBitwiseORs(new int[]{1,1,2}).ToString());
+
+            SingleNumber2Demo test169 = new SingleNumber2Demo();
+            Console.WriteLine(test169.SingleNumber(new int[]{0,1,0,1,0,1,99}).ToString());
         }
     }
 }
