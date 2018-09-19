@@ -744,6 +744,9 @@ namespace dotnetcoreproject
 
             BitwiseORsofSubarraysDemo test168 = new BitwiseORsofSubarraysDemo();
             Console.WriteLine(test168.SubarrayBitwiseORs(new int[]{1,1,2}).ToString());
+
+            SortArrayByParityDemo test169 = new SortArrayByParityDemo();
+            int[] nRet169 = test169.SortArrayByParity(new int[]{3,1,2,4});
         }
     }
 }
