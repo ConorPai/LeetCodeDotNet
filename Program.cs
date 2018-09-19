@@ -747,6 +747,9 @@ namespace dotnetcoreproject
 
             SortArrayByParityDemo test169 = new SortArrayByParityDemo();
             int[] nRet169 = test169.SortArrayByParity(new int[]{3,1,2,4});
+
+            SingleNumber2Demo test170 = new SingleNumber2Demo();
+            Console.WriteLine(test170.SingleNumber(new int[]{0,1,0,1,0,1,99}).ToString());
         }
     }
 }
