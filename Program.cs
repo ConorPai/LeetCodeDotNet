@@ -750,6 +750,9 @@ namespace dotnetcoreproject
 
             SingleNumber2Demo test170 = new SingleNumber2Demo();
             Console.WriteLine(test170.SingleNumber(new int[]{0,1,0,1,0,1,99}).ToString());
+
+            XofaKindinaDeckofCardsDemo test171 = new XofaKindinaDeckofCardsDemo();
+            Console.WriteLine(test171.HasGroupsSizeX(new int[]{0,0,0,0,1,1,2,2,3,3}).ToString());
         }
     }
 }
