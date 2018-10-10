@@ -753,6 +753,9 @@ namespace dotnetcoreproject
 
             XofaKindinaDeckofCardsDemo test171 = new XofaKindinaDeckofCardsDemo();
             Console.WriteLine(test171.HasGroupsSizeX(new int[]{0,0,0,0,1,1,2,2,3,3}).ToString());
+
+            ReverseOnlyLettersDemo test172 = new ReverseOnlyLettersDemo();
+            Console.WriteLine(test172.ReverseOnlyLetters("Test1ng-Leet=code-Q!"));
         }
     }
 }
