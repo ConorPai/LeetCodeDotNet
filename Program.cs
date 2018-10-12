@@ -756,6 +756,9 @@ namespace dotnetcoreproject
 
             ReverseOnlyLettersDemo test172 = new ReverseOnlyLettersDemo();
             Console.WriteLine(test172.ReverseOnlyLetters("Test1ng-Leet=code-Q!"));
+
+            WordSubsetsDemo test173 = new WordSubsetsDemo();
+            IList<string> ret173 = test173.WordSubsets(new string[]{"amazon","apple","facebook","google","leetcode"}, new string[]{"e","oo"});
         }
     }
 }
