@@ -759,6 +759,9 @@ namespace dotnetcoreproject
 
             WordSubsetsDemo test173 = new WordSubsetsDemo();
             IList<string> ret173 = test173.WordSubsets(new string[]{"amazon","apple","facebook","google","leetcode"}, new string[]{"e","oo"});
+
+            SortArrayByParityIIDemo test174 = new SortArrayByParityIIDemo();
+            int[] ret174 = test174.SortArrayByParityII(new int[]{4,2,5,7});
         }
     }
 }
