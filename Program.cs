@@ -765,6 +765,9 @@ namespace dotnetcoreproject
 
             RomantoIntegerDemo test175 = new RomantoIntegerDemo();
             Console.WriteLine(test175.RomanToInt("MCMXCIV").ToString());
+
+            LongPressedNameDemo test176 = new LongPressedNameDemo();
+            Console.WriteLine(test176.IsLongPressedName("kikcxmvzi", "kiikcxxmmvvzz").ToString());
         }
     }
 }
