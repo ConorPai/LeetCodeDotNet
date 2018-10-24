@@ -768,6 +768,9 @@ namespace dotnetcoreproject
 
             LongPressedNameDemo test176 = new LongPressedNameDemo();
             Console.WriteLine(test176.IsLongPressedName("kikcxmvzi", "kiikcxxmmvvzz").ToString());
+
+            RansomNoteDemo test177 = new RansomNoteDemo();
+            Console.WriteLine(test177.CanConstruct("aa", "aab").ToString());
         }
     }
 }
