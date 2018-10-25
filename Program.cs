@@ -771,6 +771,9 @@ namespace dotnetcoreproject
 
             RansomNoteDemo test177 = new RansomNoteDemo();
             Console.WriteLine(test177.CanConstruct("aa", "aab").ToString());
+
+            NondecreasingArrayDemo test178 = new NondecreasingArrayDemo();
+            Console.WriteLine(test178.CheckPossibility(new int[]{-1,4,2,3}).ToString());
         }
     }
 }
