@@ -774,6 +774,9 @@ namespace dotnetcoreproject
 
             NondecreasingArrayDemo test178 = new NondecreasingArrayDemo();
             Console.WriteLine(test178.CheckPossibility(new int[]{-1,4,2,3}).ToString());
+
+            ContainsDuplicateIIDemo test179 = new ContainsDuplicateIIDemo();
+            Console.WriteLine(test179.ContainsNearbyDuplicate(new int[]{1,2,3,1,2,3}, 2).ToString());
         }
     }
 }
