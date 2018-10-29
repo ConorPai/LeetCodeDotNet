@@ -777,6 +777,9 @@ namespace dotnetcoreproject
 
             ContainsDuplicateIIDemo test179 = new ContainsDuplicateIIDemo();
             Console.WriteLine(test179.ContainsNearbyDuplicate(new int[]{1,2,3,1,2,3}, 2).ToString());
+
+            UniqueEmailAddressesDemo test180 = new UniqueEmailAddressesDemo();
+            Console.WriteLine(test180.NumUniqueEmails(new string[]{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"}).ToString());
         }
     }
 }
