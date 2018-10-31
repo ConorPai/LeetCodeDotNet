@@ -780,6 +780,13 @@ namespace dotnetcoreproject
 
             UniqueEmailAddressesDemo test180 = new UniqueEmailAddressesDemo();
             Console.WriteLine(test180.NumUniqueEmails(new string[]{"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"}).ToString());
+
+            MyLinkedList test181 = new MyLinkedList();
+            test181.AddAtHead(1);
+            test181.AddAtIndex(1, 2);
+            Console.WriteLine(test181.Get(1).ToString());
+            Console.WriteLine(test181.Get(0).ToString());
+            Console.WriteLine(test181.Get(2).ToString());
         }
     }
 }
