@@ -787,6 +787,9 @@ namespace dotnetcoreproject
             Console.WriteLine(test181.Get(1).ToString());
             Console.WriteLine(test181.Get(0).ToString());
             Console.WriteLine(test181.Get(2).ToString());
+
+            ReverseStringIIDemo test182 = new ReverseStringIIDemo();
+            Console.WriteLine(test182.ReverseStr("abcdefg", 2));
         }
     }
 }
