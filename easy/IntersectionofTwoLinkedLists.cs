@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 
-public class Solution {
+public class IntersectionofTwoLinkedListsDemo {
     public ListNode GetIntersectionNode(ListNode headA, ListNode headB) {
         
         ListNode temp = headA;

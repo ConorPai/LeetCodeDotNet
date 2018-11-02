@@ -790,6 +790,14 @@ namespace dotnetcoreproject
 
             ReverseStringIIDemo test182 = new ReverseStringIIDemo();
             Console.WriteLine(test182.ReverseStr("abcdefg", 2));
+
+            PalindromeLinkedListDemo test183 = new PalindromeLinkedListDemo();
+            ListNode root183 = new ListNode(1);
+            root183.next = new ListNode(2);
+            root183.next.next = new ListNode(2);
+            root183.next.next.next = new ListNode(1);
+
+            Console.WriteLine(test183.IsPalindrome(root183).ToString());
         }
     }
 }
