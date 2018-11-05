@@ -798,6 +798,12 @@ namespace dotnetcoreproject
             root183.next.next.next = new ListNode(1);
 
             Console.WriteLine(test183.IsPalindrome(root183).ToString());
+
+            RecentCounter test184 = new RecentCounter();
+            Console.WriteLine(test184.Ping(1).ToString());
+            Console.WriteLine(test184.Ping(100).ToString());
+            Console.WriteLine(test184.Ping(3001).ToString());
+            Console.WriteLine(test184.Ping(3002).ToString());
         }
     }
 }
