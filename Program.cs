@@ -804,6 +804,9 @@ namespace dotnetcoreproject
             Console.WriteLine(test184.Ping(100).ToString());
             Console.WriteLine(test184.Ping(3001).ToString());
             Console.WriteLine(test184.Ping(3002).ToString());
+
+            KdiffPairsinanArrayDemo test185 = new KdiffPairsinanArrayDemo();
+            Console.WriteLine(test185.FindPairs(new int[]{3, 1, 4, 1, 5}, 2).ToString());
         }
     }
 }
