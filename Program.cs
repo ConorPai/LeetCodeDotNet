@@ -807,6 +807,9 @@ namespace dotnetcoreproject
 
             KdiffPairsinanArrayDemo test185 = new KdiffPairsinanArrayDemo();
             Console.WriteLine(test185.FindPairs(new int[]{3, 1, 4, 1, 5}, 2).ToString());
+
+            Numberof1BitsDemo test186 = new Numberof1BitsDemo();
+            Console.WriteLine(test186.HammingWeight(11).ToString());
         }
     }
 }
