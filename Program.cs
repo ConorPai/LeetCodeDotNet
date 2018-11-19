@@ -810,6 +810,9 @@ namespace dotnetcoreproject
 
             Numberof1BitsDemo test186 = new Numberof1BitsDemo();
             Console.WriteLine(test186.HammingWeight(11).ToString());
+
+            ValidPalindromeDemo test187 = new ValidPalindromeDemo();
+            Console.WriteLine(test187.IsPalindrome("\"Sue,\" Tom smiles, \"Selim smote us.\"").ToString());
         }
     }
 }
