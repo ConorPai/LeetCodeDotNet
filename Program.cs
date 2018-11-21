@@ -813,6 +813,9 @@ namespace dotnetcoreproject
 
             ValidPalindromeDemo test187 = new ValidPalindromeDemo();
             Console.WriteLine(test187.IsPalindrome("\"Sue,\" Tom smiles, \"Selim smote us.\"").ToString());
+
+            ValidPerfectSquareDemo test188 = new ValidPerfectSquareDemo();
+            Console.WriteLine(test188.IsPerfectSquare(808201).ToString());
         }
     }
 }
