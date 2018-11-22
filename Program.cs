@@ -816,6 +816,9 @@ namespace dotnetcoreproject
 
             ValidPerfectSquareDemo test188 = new ValidPerfectSquareDemo();
             Console.WriteLine(test188.IsPerfectSquare(808201).ToString());
+
+            ConvertaNumbertoHexadecimalDemo test189 = new ConvertaNumbertoHexadecimalDemo();
+            Console.WriteLine(test189.ToHex(-1));
         }
     }
 }
