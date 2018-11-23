@@ -819,6 +819,9 @@ namespace dotnetcoreproject
 
             ConvertaNumbertoHexadecimalDemo test189 = new ConvertaNumbertoHexadecimalDemo();
             Console.WriteLine(test189.ToHex(-1));
+
+            ValidMountainArrayDemo test190 = new ValidMountainArrayDemo();
+            Console.WriteLine(test190.ValidMountainArray(new int[]{0,3,2,1}).ToString());
         }
     }
 }
