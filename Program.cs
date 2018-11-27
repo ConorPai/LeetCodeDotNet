@@ -822,6 +822,9 @@ namespace dotnetcoreproject
 
             ValidMountainArrayDemo test190 = new ValidMountainArrayDemo();
             Console.WriteLine(test190.ValidMountainArray(new int[]{0,3,2,1}).ToString());
+
+            RotatedDigitsDemo test191 = new RotatedDigitsDemo();
+            Console.WriteLine(test191.RotatedDigits(857).ToString());
         }
     }
 }
