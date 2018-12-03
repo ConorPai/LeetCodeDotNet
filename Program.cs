@@ -825,6 +825,9 @@ namespace dotnetcoreproject
 
             RotatedDigitsDemo test191 = new RotatedDigitsDemo();
             Console.WriteLine(test191.RotatedDigits(857).ToString());
+
+            ShortestCompletingWordDemo test192 = new ShortestCompletingWordDemo();
+            Console.WriteLine(test192.ShortestCompletingWord("1s3 456", new string[]{"looks","pest","stew","show"}));
         }
     }
 }
