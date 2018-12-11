@@ -835,6 +835,9 @@ namespace dotnetcoreproject
 
             DeleteColumnstoMakeSortedDemo test194 = new DeleteColumnstoMakeSortedDemo();
             Console.WriteLine(test194.MinDeletionSize(new string[]{"cba","daf","ghi"}).ToString());
+
+            LargestTimeforGivenDigitsDemo test195 = new LargestTimeforGivenDigitsDemo();
+            Console.WriteLine(test195.LargestTimeFromDigits(new int[]{1, 1, 1, 1}));
         }
     }
 }
