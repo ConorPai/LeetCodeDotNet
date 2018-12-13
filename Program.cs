@@ -838,6 +838,9 @@ namespace dotnetcoreproject
 
             LargestTimeforGivenDigitsDemo test195 = new LargestTimeforGivenDigitsDemo();
             Console.WriteLine(test195.LargestTimeFromDigits(new int[]{1, 1, 1, 1}));
+
+            AllPathsFromSourcetoTargetDemo test196 = new AllPathsFromSourcetoTargetDemo();
+            IList<IList<int>> ret196 = test196.AllPathsSourceTarget(new int[4][]{new int[]{1, 2}, new int[]{3}, new int[]{3}, new int[]{}});
         }
     }
 }
