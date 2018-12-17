@@ -841,6 +841,9 @@ namespace dotnetcoreproject
 
             AllPathsFromSourcetoTargetDemo test196 = new AllPathsFromSourcetoTargetDemo();
             IList<IList<int>> ret196 = test196.AllPathsSourceTarget(new int[4][]{new int[]{1, 2}, new int[]{3}, new int[]{3}, new int[]{}});
+
+            VerifyinganAlienDictionaryDemo test197 = new VerifyinganAlienDictionaryDemo();
+            Console.WriteLine(test197.IsAlienSorted(new string[]{"apple","app"}, "abcdefghijklmnopqrstuvwxyz"));
         }
     }
 }
