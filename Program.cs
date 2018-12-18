@@ -844,6 +844,9 @@ namespace dotnetcoreproject
 
             VerifyinganAlienDictionaryDemo test197 = new VerifyinganAlienDictionaryDemo();
             Console.WriteLine(test197.IsAlienSorted(new string[]{"apple","app"}, "abcdefghijklmnopqrstuvwxyz"));
+
+            ZigZagConversionDemo test198 = new ZigZagConversionDemo();
+            Console.WriteLine(test198.Convert("A", 1));
         }
     }
 }
