@@ -847,6 +847,9 @@ namespace dotnetcoreproject
 
             ZigZagConversionDemo test198 = new ZigZagConversionDemo();
             Console.WriteLine(test198.Convert("A", 1));
+
+            LongestPalindromicSubstringDemo test199 = new LongestPalindromicSubstringDemo();
+            Console.WriteLine(test199.LongestPalindrome("aaabaaaa"));
         }
     }
 }
