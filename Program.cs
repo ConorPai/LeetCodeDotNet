@@ -853,6 +853,9 @@ namespace dotnetcoreproject
 
             StringtoIntegerDemo test200 = new StringtoIntegerDemo();
             Console.WriteLine(test200.MyAtoi("9223372036854775808").ToString());
+
+            MinimumFallingPathSumDemo test201 = new MinimumFallingPathSumDemo();
+            Console.WriteLine(test201.MinFallingPathSum(new int[3][]{new int[]{1, 2, 3}, new int[]{4, 5, 6}, new int[]{7, 8, 9}}).ToString());
         }
     }
 }
