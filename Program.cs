@@ -856,6 +856,9 @@ namespace dotnetcoreproject
 
             MinimumFallingPathSumDemo test201 = new MinimumFallingPathSumDemo();
             Console.WriteLine(test201.MinFallingPathSum(new int[3][]{new int[]{1, 2, 3}, new int[]{4, 5, 6}, new int[]{7, 8, 9}}).ToString());
+
+            SwapNodesinPairsDemo test202 = new SwapNodesinPairsDemo();
+            ListNode ret202 = test202.SwapPairs(new ListNode(1));
         }
     }
 }
