@@ -859,6 +859,9 @@ namespace dotnetcoreproject
 
             SwapNodesinPairsDemo test202 = new SwapNodesinPairsDemo();
             ListNode ret202 = test202.SwapPairs(new ListNode(1));
+
+            CombinationSumDemo test203 = new CombinationSumDemo();
+            IList<IList<int>> ret203 = test203.CombinationSum(new int[]{2,3,5}, 8);
         }
     }
 }
