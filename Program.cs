@@ -862,6 +862,9 @@ namespace dotnetcoreproject
 
             CombinationSumDemo test203 = new CombinationSumDemo();
             IList<IList<int>> ret203 = test203.CombinationSum(new int[]{2,3,5}, 8);
+
+            PowerfulIntegersDemo test204 = new PowerfulIntegersDemo();
+            IList<int> ret204 = test204.PowerfulIntegers(2, 1, 100);
         }
     }
 }
