@@ -865,6 +865,9 @@ namespace dotnetcoreproject
 
             PowerfulIntegersDemo test204 = new PowerfulIntegersDemo();
             IList<int> ret204 = test204.PowerfulIntegers(2, 1, 100);
+
+            KClosestPointstoOriginDemo test205 = new KClosestPointstoOriginDemo();
+            int[][] ret205 = test205.KClosest(new int[2][]{new int[]{1, 3}, new int[]{-2, 2}}, 1);
         }
     }
 }
