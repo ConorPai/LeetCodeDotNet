@@ -868,6 +868,9 @@ namespace dotnetcoreproject
 
             KClosestPointstoOriginDemo test205 = new KClosestPointstoOriginDemo();
             int[][] ret205 = test205.KClosest(new int[2][]{new int[]{1, 3}, new int[]{-2, 2}}, 1);
+
+            RotateImageDemo test206 = new RotateImageDemo();
+            test206.Rotate(new int[3,3]{{1,2,3}, {4,5,6}, {7,8,9}});
         }
     }
 }
