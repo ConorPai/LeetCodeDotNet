@@ -871,6 +871,9 @@ namespace dotnetcoreproject
 
             RotateImageDemo test206 = new RotateImageDemo();
             test206.Rotate(new int[3,3]{{1,2,3}, {4,5,6}, {7,8,9}});
+
+            SimplifyPathDemo test207 = new SimplifyPathDemo();
+            Console.WriteLine(test207.SimplifyPath("/a//b////c/d//././/.."));
         }
     }
 }
