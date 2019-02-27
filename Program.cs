@@ -877,6 +877,9 @@ namespace dotnetcoreproject
 
             AddtoArrayFormofIntegerDemo test208 = new AddtoArrayFormofIntegerDemo();
             IList<int> ret208 = test208.AddToArrayForm(new int[]{1,2,6,3,0,7,1,7,1,9,7,5,6,6,4,4,0,0,6,3}, 516);
+
+            FindtheTownJudgeDemo test209 = new FindtheTownJudgeDemo();
+            Console.WriteLine(test209.FindJudge(3, new int[3][]{new int[]{1, 3}, new int[]{2, 3}, new int[]{3, 1}}));
         }
     }
 }
