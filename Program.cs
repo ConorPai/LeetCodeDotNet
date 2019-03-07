@@ -880,6 +880,9 @@ namespace dotnetcoreproject
 
             FindtheTownJudgeDemo test209 = new FindtheTownJudgeDemo();
             Console.WriteLine(test209.FindJudge(3, new int[3][]{new int[]{1, 3}, new int[]{2, 3}, new int[]{3, 1}}));
+
+            FibonacciNumberDemo test210 = new FibonacciNumberDemo();
+            Console.WriteLine(test210.Fib(3).ToString());
         }
     }
 }
