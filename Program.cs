@@ -883,6 +883,9 @@ namespace dotnetcoreproject
 
             FibonacciNumberDemo test210 = new FibonacciNumberDemo();
             Console.WriteLine(test210.Fib(3).ToString());
+
+            FindCommonCharactersDemo test211 = new FindCommonCharactersDemo();
+            IList<string> ret211 = test211.CommonChars(new string[]{"bella","label","roller"});
         }
     }
 }
