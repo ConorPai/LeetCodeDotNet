@@ -886,6 +886,9 @@ namespace dotnetcoreproject
 
             FindCommonCharactersDemo test211 = new FindCommonCharactersDemo();
             IList<string> ret211 = test211.CommonChars(new string[]{"bella","label","roller"});
+
+            ValidBoomerangDemo test212 = new ValidBoomerangDemo();
+            Console.WriteLine(test212.IsBoomerang(new int[][]{new int[]{1,1}, new int[]{1,2}, new int[]{0,0}}).ToString());
         }
     }
 }
