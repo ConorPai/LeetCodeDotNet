@@ -889,6 +889,9 @@ namespace dotnetcoreproject
 
             ValidBoomerangDemo test212 = new ValidBoomerangDemo();
             Console.WriteLine(test212.IsBoomerang(new int[][]{new int[]{1,1}, new int[]{1,2}, new int[]{0,0}}).ToString());
+
+            DuplicateZerosDemo test213 = new DuplicateZerosDemo();
+            test213.DuplicateZeros(new int[]{1,5,2,3,0,8,7,0,0});
         }
     }
 }
