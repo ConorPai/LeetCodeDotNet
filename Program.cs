@@ -892,6 +892,9 @@ namespace dotnetcoreproject
 
             DuplicateZerosDemo test213 = new DuplicateZerosDemo();
             test213.DuplicateZeros(new int[]{1,5,2,3,0,8,7,0,0});
+
+            LastStoneWeightDemo test214 = new LastStoneWeightDemo();
+            Console.WriteLine(test214.LastStoneWeight(new int[]{9,3,2,10}).ToString());
         }
     }
 }
