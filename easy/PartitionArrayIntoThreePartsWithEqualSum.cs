@@ -1,6 +1,6 @@
 //https://leetcode-cn.com/problems/partition-array-into-three-parts-with-equal-sum/
 
-public class Solution {
+public class PartitionArrayIntoThreePartsWithEqualSumDemo {
     public bool CanThreePartsEqualSum(int[] A) {
         int nSum = 0;
         foreach(int a in A)
