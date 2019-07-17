@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 
-public class Solution {
+public class OccurrencesAfterBigramDemo {
     public string[] FindOcurrences(string text, string first, string second) {
         string[] texts = text.Split(" ");
 
