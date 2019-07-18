@@ -895,6 +895,9 @@ namespace dotnetcoreproject
 
             LastStoneWeightDemo test214 = new LastStoneWeightDemo();
             Console.WriteLine(test214.LastStoneWeight(new int[]{9,3,2,10}).ToString());
+
+            FlowerPlantingWithNoAdjacentDemo test215 = new FlowerPlantingWithNoAdjacentDemo();
+            int[] nRet215 = test215.GardenNoAdj(3, new int[][]{new int[]{1,2},new int[]{2,3},new int[]{3,1}});
         }
     }
 }
