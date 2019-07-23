@@ -901,6 +901,9 @@ namespace dotnetcoreproject
 
             ThreeSumDemo test216 = new ThreeSumDemo();
             IList<IList<int>> ret216 = test216.ThreeSum(new int[]{-1,0,1,2,-1,-4});
+
+            NumberofEquivalentDominoPairsDemo test217 = new NumberofEquivalentDominoPairsDemo();
+            Console.WriteLine(test217.NumEquivDominoPairs(new int[][]{new int[]{1,2}, new int[]{2,1}, new int[]{3,4}, new int[]{5,6}}).ToString());
         }
     }
 }
