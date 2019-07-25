@@ -1,4 +1,4 @@
-//https://leetcode-cn.com/problems/add-to-array-form-of-integer/comments/
+//https://leetcode-cn.com/problems/add-to-array-form-of-integer/
 
 using System;
 using System.Collections.Generic;

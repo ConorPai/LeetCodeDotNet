@@ -1,4 +1,4 @@
-//https://leetcode-cn.com/problems/network-delay-time/comments/
+//https://leetcode-cn.com/problems/network-delay-time/
 
 using System;
 using System.Collections;

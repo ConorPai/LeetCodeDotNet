@@ -1,4 +1,4 @@
-//https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/solution/
+//https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
 
 using System;
 using System.Collections.Generic;

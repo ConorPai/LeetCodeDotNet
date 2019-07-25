@@ -1,4 +1,4 @@
-//https://leetcode-cn.com/problems/ugly-number/comments/
+//https://leetcode-cn.com/problems/ugly-number/
 
 public class UglyNumberDemo {
     public bool IsUgly(int num) {

@@ -1,4 +1,4 @@
-//https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/comments/
+//https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/
 
 using System.Collections.Generic;
 

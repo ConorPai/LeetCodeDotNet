@@ -1,4 +1,4 @@
-//https://leetcode-cn.com/problems/3sum/solution/three-sum-giftu-jie-by-githber/
+//https://leetcode-cn.com/problems/3sum/
 
 using System;
 using System.Collections.Generic;

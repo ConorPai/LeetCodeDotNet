@@ -1,4 +1,4 @@
-//https://leetcode-cn.com/problems/two-city-scheduling/comments/
+//https://leetcode-cn.com/problems/two-city-scheduling/
 
 using System.Linq;
 using System.Collections.Generic;
