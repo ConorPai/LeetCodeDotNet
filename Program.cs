@@ -904,6 +904,9 @@ namespace dotnetcoreproject
 
             NumberofEquivalentDominoPairsDemo test217 = new NumberofEquivalentDominoPairsDemo();
             Console.WriteLine(test217.NumEquivDominoPairs(new int[][]{new int[]{1,2}, new int[]{2,1}, new int[]{3,4}, new int[]{5,6}}).ToString());
+
+            Largest1BorderedSquareDemo test218 = new Largest1BorderedSquareDemo();
+            Console.WriteLine(test218.Largest1BorderedSquare(new int[][]{new int[]{1,1,1}, new int[]{1,0,1}, new int[]{1,1,1}}).ToString());
         }
     }
 }
