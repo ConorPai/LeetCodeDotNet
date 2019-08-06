@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 
-public class Solution {
+public class GenerateParenthesesDemo {
     public IList<string> GenerateParenthesis(int n) {
         if (n == 0)
         {
