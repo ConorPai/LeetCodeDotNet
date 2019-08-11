@@ -7,7 +7,7 @@ public class OrdinalNumberofDateDemo {
         int[] dayOfMonth = new int[]{0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         string[] dates = date.Split('-');
 
-        if (Convert.ToInt32(dates[0]) % 4 == 0)
+        if (dates[0] != "1900" && Convert.ToInt32(dates[0]) % 4 == 0)
             dayOfMonth[2] += 1;
 
         int nTotalDay = 0;
