@@ -907,6 +907,9 @@ namespace dotnetcoreproject
 
             Largest1BorderedSquareDemo test218 = new Largest1BorderedSquareDemo();
             Console.WriteLine(test218.Largest1BorderedSquare(new int[][]{new int[]{1,1,1}, new int[]{1,0,1}, new int[]{1,1,1}}).ToString());
+
+            OrdinalNumberofDateDemo test219 = new OrdinalNumberofDateDemo();
+            Console.WriteLine(test219.DayOfYear("2004-03-01").ToString());
         }
     }
 }
