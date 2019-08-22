@@ -910,6 +910,9 @@ namespace dotnetcoreproject
 
             OrdinalNumberofDateDemo test219 = new OrdinalNumberofDateDemo();
             Console.WriteLine(test219.DayOfYear("2004-03-01").ToString());
+
+            AsFarfromLandasPossibleDemo test220 = new AsFarfromLandasPossibleDemo();
+            Console.WriteLine(test220.MaxDistance(new int[][]{new int[]{1,0,1}, new int[]{0,0,0}, new int[]{1,0,1}}).ToString());
         }
     }
 }
