@@ -17,3 +17,4 @@ obj/Debug/netcoreapp2.0/dotnetcoreproject.csprojResolveAssemblyReference.cache
 obj/Debug/netcoreapp2.0/dotnetcoreproject.csprojAssemblyReference.cache
 obj/Debug/netcoreapp2.0/dotnetcoreproject.assets.cache
 obj/Debug/netcoreapp2.0/project.razor.json
+obj/dotnetcoreproject.csproj.nuget.dgspec.json
