@@ -11,7 +11,7 @@ public class SplitaStringinBalancedStringsDemo {
         {
             if (c == 'R')
                 nCount++;
-            else if (c == 'L')
+            else
                 nCount--;
 
             if (nCount == 0)
