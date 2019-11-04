@@ -919,6 +919,9 @@ namespace dotnetcoreproject
 
             MinimumAbsoluteDifferenceDemo test222 = new MinimumAbsoluteDifferenceDemo();
             test222.MinimumAbsDifference(new int[]{1,3,6,10,15});
+
+            ArrayTransformationDemo test223 = new ArrayTransformationDemo();
+            test223.TransformArray(new int[]{1,5,4,7,9,2,5,1,2,5,8,8,3,8,4,4,6,3});
         }
     }
 }
