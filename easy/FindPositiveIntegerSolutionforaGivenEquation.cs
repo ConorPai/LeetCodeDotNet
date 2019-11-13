@@ -1,4 +1,5 @@
 //https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/
+using System.Collections.Generic;
 
 public class CustomFunction {
     public int f(int x, int y)
