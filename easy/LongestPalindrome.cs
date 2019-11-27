@@ -1,5 +1,7 @@
 //https://leetcode-cn.com/problems/longest-palindrome/
 
+using System.Collections.Generic;
+
 public class LongestPalindromeDemo {
     public int LongestPalindrome(string s) {
         HashSet<char> h = new HashSet<char>();

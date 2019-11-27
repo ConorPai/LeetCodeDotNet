@@ -1,5 +1,7 @@
 //https://leetcode-cn.com/problems/shift-2d-grid/
 
+using System.Collections.Generic;
+
 public class Shift2DGridDemo {
     public IList<IList<int>> ShiftGrid(int[][] grid, int k) {
         int n = grid.Length;
