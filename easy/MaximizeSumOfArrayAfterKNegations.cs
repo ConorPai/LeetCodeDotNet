@@ -1,5 +1,7 @@
 //https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/
 
+using System;
+
 public class MaximizeSumOfArrayAfterKNegationsDemo {
     public int LargestSumAfterKNegations(int[] A, int K) {
         

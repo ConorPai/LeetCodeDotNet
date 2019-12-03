@@ -922,6 +922,9 @@ namespace dotnetcoreproject
 
             ArrayTransformationDemo test223 = new ArrayTransformationDemo();
             test223.TransformArray(new int[]{1,5,4,7,9,2,5,1,2,5,8,8,3,8,4,4,6,3});
+
+            FindWinneronaTicTacToeGameDemo test224 = new FindWinneronaTicTacToeGameDemo();
+            Console.WriteLine(test224.Tictactoe(new int[][]{new int[]{2,2},new int[]{2,1},new int[]{1,0},new int[]{1,2},new int[]{0,0},new int[]{2,0}}));
         }
     }
 }

@@ -1,5 +1,7 @@
 //https://leetcode-cn.com/problems/range-addition-ii/
 
+using System;
+
 class RangeAdditionIIDemo {
     public int maxCount(int m, int n, int[][] ops) {
         if (ops == null || ops.Length == 0)
