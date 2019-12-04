@@ -6,7 +6,7 @@ public class VersionControl {
     }
 }
 
-public class Solution : VersionControl {
+public class FirstBadVersionDemo : VersionControl {
     public int FirstBadVersion(int n) {
         int left = 1;
         int right = n;
