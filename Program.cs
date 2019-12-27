@@ -925,6 +925,12 @@ namespace dotnetcoreproject
 
             FindWinneronaTicTacToeGameDemo test224 = new FindWinneronaTicTacToeGameDemo();
             Console.WriteLine(test224.Tictactoe(new int[][]{new int[]{2,2},new int[]{2,1},new int[]{1,0},new int[]{1,2},new int[]{0,0},new int[]{2,0}}));
+
+            ConvertBinaryNumberinaLinkedListtoIntegerDemo test225 = new ConvertBinaryNumberinaLinkedListtoIntegerDemo();
+            ListNode node255 = new ListNode(1);
+            node255.next = new ListNode(0);
+            node255.next.next = new ListNode(1);
+            Console.WriteLine(test225.GetDecimalValue(node255).ToString());
         }
     }
 }
