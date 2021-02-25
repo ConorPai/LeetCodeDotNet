@@ -931,6 +931,9 @@ namespace dotnetcoreproject
             node255.next = new ListNode(0);
             node255.next.next = new ListNode(1);
             Console.WriteLine(test225.GetDecimalValue(node255).ToString());
+
+            RunningSumOf1dArray test256 = new RunningSumOf1dArray();
+            int[] ret256 = test256.RunningSum(new int[]{1, 2, 3, 4, 5});
         }
     }
 }

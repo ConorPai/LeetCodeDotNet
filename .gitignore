@@ -17,4 +17,5 @@ obj/Debug/netcoreapp2.0/dotnetcoreproject.csprojResolveAssemblyReference.cache
 obj/Debug/netcoreapp2.0/dotnetcoreproject.csprojAssemblyReference.cache
 obj/Debug/netcoreapp2.0/dotnetcoreproject.assets.cache
 obj/Debug/netcoreapp2.0/project.razor.json
+obj/Debug/netcoreapp2.0/.NETCoreApp,Version=v2.0.AssemblyAttributes.cs
 obj/dotnetcoreproject.csproj.nuget.dgspec.json
